@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Klyra AI Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#533afd",
+    "light": "#7851e3",
+    "dark": "#2a1d85"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,7 +14,7 @@
     "tab": "Guides",
     "groups": [
       {
-        "group": "Getting Started",
+        "group": "Introduction",
         "pages": [
           "index",
           "quickstart",
@@ -67,7 +67,7 @@
         {
           "anchor": "Website",
           "href": "https://klyra.ai",
-          "icon": "website"
+          "icon": "globe"
         }
       ]
     }
