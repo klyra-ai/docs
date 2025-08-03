@@ -11,62 +11,56 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+    "tab": "Guides",
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart",
+          "dashboard"
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+        "group": "Features",
+        "pages": [
+          "features/ai-code",
+          "features/ai-chat",
+          "features/ai-file-chat",
+          "features/ai-avatars",
+          "features/ai-text-to-video",
+          "features/ai-image-tools",
+          "features/ai-music",
+          "features/ai-voiceover",
+          "features/ai-voice-cloning",
+          "features/ai-social-media",
+          "features/ai-wordpress",
+          "features/ai-seo",
+          "features/ai-textract",
+          "features/brand-voice",
+          "features/external-chatbots",
+          "features/more-tools"
+        ]
+      },
+      {
+        "group": "Tutorials",
+        "pages": [
+          "tutorials/create-first-video",
+          "tutorials/generate-voiceover",
+          "tutorials/build-chatbot",
+          "tutorials/automate-blog"
+        ]
+      },
+      {
+        "group": "FAQs",
+        "pages": [
+          "faqs/general",
+          "faqs/billing",
+          "faqs/troubleshooting"
         ]
       }
+    ]
+  }
     ],
     "global": {
       "anchors": [
