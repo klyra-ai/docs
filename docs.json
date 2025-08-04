@@ -9,116 +9,108 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "groups": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "index",
-              "quickstart"
-            ]
-          },
-          {
-            "group": "AI Panel",
-            "pages": [
-              "dashboard/dashboard",
-              "dashboard/documents"
-            ]
-          },
-          {
-            "group": "Account",
-            "pages": [
-              "account/subscription-plans",
-              "account/my-account",
-              "account/affiliate-program"
-            ]
-          },
-          {
-            "group": "Features",
-            "pages": []
-          },
-          {
-            "group": "AI Content",
-            "pages": [
-              "features/ai-code",
-              "features/ai-writer",
-              "features/ai-rewriter",
-              "features/smart-editor",
-              "features/ai-article-wizard"
-            ]
-          },
-          {
-            "group": "AI Chat",
-            "pages": [
-              "features/ai-chat",
-              "features/ai-file-chat",
-              "features/ai-web-chat",
-              "features/ai-realtime-voice-chat"
-            ]
-          },
-          {
-            "group": "AI Image",
-            "pages": [
-              "features/ai-vision",
-              "features/ai-images",
-              "features/ai-faceswap",
-              "features/ai-chat-image",
-              "features/ai-photo-studio",
-              "features/ai-product-photo"
-            ]
-          },
-          {
-            "group": "AI Video",
-            "pages": [
-              "features/ai-avatar",
-              "features/ai-text-to-video",
-              "features/ai-image-to-video",
-              "features/ai-video-to-video"
-            ]
-          },
-          {
-            "group": "AI Audio",
-            "pages": [
-              "features/ai-music",
-              "features/ai-voiceover",
-              "features/voice-isolator",
-              "features/sound-studio",
-              "features/voice-cloning",
-              "features/speech-to-text",
-              "features/speech-to-text-pro"
-            ]
-          },
-          {
-            "group": "AI Connect",
-            "pages": [
-              "features/ai-rss",
-              "features/ai-youtube",
-              "features/integrations",
-              "features/ai-social-media",
-              "features/external-chatbots"
-            ]
-          },
-          {
-            "group": "Productivity",
-            "pages": [
-              "features/seo-tool",
-              "features/ai-textract",
-              "features/brand-voice"
-            ]
-          }
+        "group": "Introduction",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "AI Panel",
+        "pages": [
+          "dashboard/dashboard",
+          "dashboard/documents"
+        ]
+      },
+      {
+        "group": "Account",
+        "pages": [
+          "account/subscription-plans",
+          "account/my-account",
+          "account/affiliate-program"
+        ]
+      },
+      {
+        "group": "AI Content",
+        "pages": [
+          "features/ai-code",
+          "features/ai-writer",
+          "features/ai-rewriter",
+          "features/smart-editor",
+          "features/ai-article-wizard"
+        ]
+      },
+      {
+        "group": "AI Chat",
+        "pages": [
+          "features/ai-chat",
+          "features/ai-file-chat",
+          "features/ai-web-chat",
+          "features/ai-realtime-voice-chat"
+        ]
+      },
+      {
+        "group": "AI Image",
+        "pages": [
+          "features/ai-vision",
+          "features/ai-images",
+          "features/ai-faceswap",
+          "features/ai-chat-image",
+          "features/ai-photo-studio",
+          "features/ai-product-photo"
+        ]
+      },
+      {
+        "group": "AI Video",
+        "pages": [
+          "features/ai-avatar",
+          "features/ai-text-to-video",
+          "features/ai-image-to-video",
+          "features/ai-video-to-video"
+        ]
+      },
+      {
+        "group": "AI Audio",
+        "pages": [
+          "features/ai-music",
+          "features/ai-voiceover",
+          "features/voice-isolator",
+          "features/sound-studio",
+          "features/voice-cloning",
+          "features/speech-to-text",
+          "features/speech-to-text-pro"
+        ]
+      },
+      {
+        "group": "AI Connect",
+        "pages": [
+          "features/ai-rss",
+          "features/ai-youtube",
+          "features/integrations",
+          "features/ai-social-media",
+          "features/external-chatbots"
+        ]
+      },
+      {
+        "group": "Productivity",
+        "pages": [
+          "features/seo-tool",
+          "features/ai-textract",
+          "features/brand-voice"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Website",
-          "href": "https://klyra.ai",
-          "icon": "globe"
-        }
-      ]
-    }
+    ]
+  },
+  "global": {
+    "anchors": [
+      {
+        "anchor": "Website",
+        "href": "https://klyra.ai",
+        "icon": "globe"
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
