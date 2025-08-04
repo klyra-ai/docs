@@ -17,16 +17,14 @@
         "group": "Introduction",
         "pages": [
           "index",
-          "quickstart",
-          "dashboard/dashboard"
+          "quickstart"
         ]
       },
       {
         "group": "Dashboard",
         "pages": [
           "dashboard/dashboard",
-          "dashboard/documents",
-          "features/ai-code"
+          "dashboard/documents"
         ]
       },
       {
