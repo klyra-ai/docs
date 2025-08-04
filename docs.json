@@ -20,8 +20,8 @@
       {
         "group": "AI Panel",
         "pages": [
-          "dashboard/dashboard",
-          "dashboard/documents"
+          "ai-panel/dashboard",
+          "ai-panel/documents"
         ]
       },
       {
@@ -65,7 +65,7 @@
       {
         "group": "AI Video",
         "pages": [
-          "features/ai-avatar",
+          "features/ai-avatars",
           "features/ai-text-to-video",
           "features/ai-image-to-video",
           "features/ai-video-to-video"
