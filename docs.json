@@ -17,8 +17,14 @@
         "group": "Introduction",
         "pages": [
           "index",
-          "quickstart",
-          "dashboard"
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Dashboard",
+        "pages": [
+          "dashboard",
+          "documents"
         ]
       },
       {
@@ -40,15 +46,6 @@
           "features/brand-voice",
           "features/external-chatbots",
           "features/more-tools"
-        ]
-      },
-      {
-        "group": "Tutorials",
-        "pages": [
-          "tutorials/create-first-video",
-          "tutorials/generate-voiceover",
-          "tutorials/build-chatbot",
-          "tutorials/automate-blog"
         ]
       },
       {
