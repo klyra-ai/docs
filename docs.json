@@ -35,70 +35,70 @@
       {
         "group": "AI Content",
         "pages": [
-          "features/ai-code",
-          "features/ai-writer",
-          "features/ai-rewriter",
-          "features/smart-editor",
-          "features/ai-article-wizard"
+          "ai-content/ai-code",
+          "ai-content/ai-writer",
+          "ai-content/ai-rewriter",
+          "ai-content/smart-editor",
+          "ai-content/ai-article-wizard"
         ]
       },
       {
         "group": "AI Chat",
         "pages": [
-          "features/ai-chat",
-          "features/ai-file-chat",
-          "features/ai-web-chat",
-          "features/ai-realtime-voice-chat"
+          "ai-chat/ai-chat",
+          "ai-chat/ai-file-chat",
+          "ai-chat/ai-web-chat",
+          "ai-chat/ai-realtime-voice-chat"
         ]
       },
       {
         "group": "AI Image",
         "pages": [
-          "features/ai-vision",
-          "features/ai-images",
-          "features/ai-faceswap",
-          "features/ai-chat-image",
-          "features/ai-photo-studio",
-          "features/ai-product-photo"
+          "ai-image/ai-vision",
+          "ai-image/ai-images",
+          "ai-image/ai-faceswap",
+          "ai-image/ai-chat-image",
+          "ai-image/ai-photo-studio",
+          "ai-image/ai-product-photo"
         ]
       },
       {
         "group": "AI Video",
         "pages": [
-          "features/ai-avatars",
-          "features/ai-text-to-video",
-          "features/ai-image-to-video",
-          "features/ai-video-to-video"
+          "ai-videos/ai-avatars",
+          "ai-videos/ai-text-to-video",
+          "ai-videos/ai-image-to-video",
+          "ai-videos/ai-video-to-video"
         ]
       },
       {
         "group": "AI Audio",
         "pages": [
-          "features/ai-music",
-          "features/ai-voiceover",
-          "features/voice-isolator",
-          "features/sound-studio",
-          "features/voice-cloning",
-          "features/speech-to-text",
-          "features/speech-to-text-pro"
+          "ai-audio/ai-music",
+          "ai-audio/ai-voiceover",
+          "ai-audio/voice-isolator",
+          "ai-audio/sound-studio",
+          "ai-audio/voice-cloning",
+          "ai-audio/speech-to-text",
+          "ai-audio/speech-to-text-pro"
         ]
       },
       {
         "group": "AI Connect",
         "pages": [
-          "features/ai-rss",
-          "features/ai-youtube",
-          "features/integrations",
-          "features/ai-social-media",
-          "features/external-chatbots"
+          "ai-connect/ai-rss",
+          "ai-connect/ai-youtube",
+          "ai-connect/integrations",
+          "ai-connect/ai-social-media",
+          "ai-connect/external-chatbots"
         ]
       },
       {
         "group": "Productivity",
         "pages": [
-          "features/seo-tool",
-          "features/ai-textract",
-          "features/brand-voice"
+          "productivity/seo-tool",
+          "productivity/ai-textract",
+          "productivity/brand-voice"
         ]
       }
     ]
