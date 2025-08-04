@@ -11,53 +11,104 @@
   "navigation": {
     "tabs": [
       {
-    "tab": "Guides",
-    "groups": [
-      {
-        "group": "Introduction",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      },
-      {
-        "group": "Dashboard",
-        "pages": [
-          "dashboard/dashboard",
-          "dashboard/documents"
-        ]
-      },
-      {
-        "group": "Features",
-        "pages": [
-          "features/ai-code",
-          "features/ai-chat",
-          "features/ai-file-chat",
-          "features/ai-avatars",
-          "features/ai-text-to-video",
-          "features/ai-image-tools",
-          "features/ai-music",
-          "features/ai-voiceover",
-          "features/ai-voice-cloning",
-          "features/ai-social-media",
-          "features/ai-wordpress",
-          "features/ai-seo",
-          "features/ai-textract",
-          "features/brand-voice",
-          "features/external-chatbots",
-          "features/more-tools"
-        ]
-      },
-      {
-        "group": "FAQs",
-        "pages": [
-          "faqs/general",
-          "faqs/billing",
-          "faqs/troubleshooting"
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "index",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "AI Panel",
+            "pages": [
+              "dashboard/dashboard",
+              "dashboard/documents"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "account/subscription-plans",
+              "account/my-account",
+              "account/affiliate-program"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": []
+          },
+          {
+            "group": "AI Content",
+            "pages": [
+              "features/ai-code",
+              "features/ai-writer",
+              "features/ai-rewriter",
+              "features/smart-editor",
+              "features/ai-article-wizard"
+            ]
+          },
+          {
+            "group": "AI Chat",
+            "pages": [
+              "features/ai-chat",
+              "features/ai-file-chat",
+              "features/ai-web-chat",
+              "features/ai-realtime-voice-chat"
+            ]
+          },
+          {
+            "group": "AI Image",
+            "pages": [
+              "features/ai-vision",
+              "features/ai-images",
+              "features/ai-faceswap",
+              "features/ai-chat-image",
+              "features/ai-photo-studio",
+              "features/ai-product-photo"
+            ]
+          },
+          {
+            "group": "AI Video",
+            "pages": [
+              "features/ai-avatar",
+              "features/ai-text-to-video",
+              "features/ai-image-to-video",
+              "features/ai-video-to-video"
+            ]
+          },
+          {
+            "group": "AI Audio",
+            "pages": [
+              "features/ai-music",
+              "features/ai-voiceover",
+              "features/voice-isolator",
+              "features/sound-studio",
+              "features/voice-cloning",
+              "features/speech-to-text",
+              "features/speech-to-text-pro"
+            ]
+          },
+          {
+            "group": "AI Connect",
+            "pages": [
+              "features/ai-rss",
+              "features/ai-youtube",
+              "features/integrations",
+              "features/ai-social-media",
+              "features/external-chatbots"
+            ]
+          },
+          {
+            "group": "Productivity",
+            "pages": [
+              "features/seo-tool",
+              "features/ai-textract",
+              "features/brand-voice"
+            ]
+          }
         ]
       }
-    ]
-  }
     ],
     "global": {
       "anchors": [
@@ -88,15 +139,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
