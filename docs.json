@@ -65,10 +65,10 @@
       {
         "group": "AI Video",
         "pages": [
-          "ai-videos/ai-avatars",
-          "ai-videos/ai-text-to-video",
-          "ai-videos/ai-image-to-video",
-          "ai-videos/ai-video-to-video"
+          "ai-video/ai-avatars",
+          "ai-video/ai-text-to-video",
+          "ai-video/ai-image-to-video",
+          "ai-video/ai-video-to-video"
         ]
       },
       {
