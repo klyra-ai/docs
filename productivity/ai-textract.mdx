@@ -13,64 +13,68 @@ AI Textract is a powerful document intelligence tool that automatically retrieve
 
 Whether you're working with structured forms or unstructured receipts, AI Textract processes content in minutes and delivers accurate results without human intervention. Its built-in **Receipt Analyze** feature intelligently extracts vendor names, even from logos and identifies line items, quantities, and prices, even when column headers are missing. This makes it ideal for automating workflows that would otherwise require hours of manual review.
 
-![Klyra Ai Textract Web](/images/klyra-ai-textract.webp)
-
-## How to Use
+## How to Use AI Textract
 
 Use AI Textract to extract structured or unstructured data from scanned documents, forms, tables, or receipts in seconds. To get started, go to the **Productivity** group in the left panel of your dashboard and click on the **AI Textract** tab. Follow the steps below to choose the right detection type for your document.
 
-### ✅ Step 1: Upload Your Document
+<Steps>
+  <Step title="Upload Your Document">
+    Start by uploading the document you want to process.\
+    **Supported formats:**
 
-Start by uploading the document you want to process.\
-**Supported formats:**
+    - PNG
+    - JPG
+    - PDF
 
-- PNG
-- JPG
-- PDF
+    Once uploaded, the file will be displayed and ready for Textract processing.
 
-Once uploaded, the file will be displayed and ready for Textract processing.
+    <Note>
+      Make sure your file is clear and properly scanned for optimal results.
+    </Note>
+  </Step>
+  <Step title="Choose Detection Type">
+    AI Textract supports the following three advanced detection modes:
 
-<Note>
-  Make sure your file is clear and properly scanned for optimal results.
-</Note>
+    - Form Detection
+    - Table Detection
+    - Receipt Analysis
 
-### ✅ Step 2: Choose Detection Type
+    <Danger>
+      Only one detection type can be enabled at a time.
+    </Danger>
+    If none of these detection types are enabled, the system will perform **Text Detection by default**, extracting all raw text content from the document.
+  </Step>
+  <Step title="Run Textract">
+    Click the **Textract** button to start processing the document.
 
-AI Textract supports the following three advanced detection modes:
+    Based on the selected detection mode (or default), your results will appear in the **Textract Result** section under the appropriate tab.
 
-- Form Detection
-- Table Detection
-- Receipt Analysis
+    ![Klyra Ai Textract Web](/images/klyra-ai-textract.webp)
+  </Step>
+</Steps>
 
-<Danger>
-  Only one detection type can be enabled at a time.
-</Danger>
+<Tabs>
+  <Tab title="Text Detection">
+    If no specific detection option is enabled, the tool will extract **all visible text** from your document and display it in the **Raw Text** tab.
 
-If none of these detection types are enabled, the system will perform **Text Detection by default**, extracting all raw text content from the document.
+    ![Text Detection Web](/images/text-detection.webp)
+  </Tab>
+  <Tab title="Table Detection">
+    If **Table Detection** is enabled, Textract identifies and extracts **table structures**, including rows, columns, and cell values, and displays them in the **Tables** tab.
 
-### ✅ Step 3: Run Textract
+    ![Table Analysis Web](/images/table-analysis.webp)
+  </Tab>
+  <Tab title="Form Detection">
+    If **Form Detection** is enabled, the tool extracts structured data such as labels and values (e.g., Name, Date, Amount) and organizes them into readable key-value pairs in the **Forms** tab.
 
-Click the **Textract** button to start processing the document.
+    ![Form Analysis Web](/images/form-analysis.webp)
+  </Tab>
+  <Tab title="Receipt Analysis">
+    If **Receipt Analysis** is enabled, the tool extracts detailed **purchase information**, including vendor names, item lists, prices, and totals - even if no column headers exist. Results are shown in the **Receipt Summary** tab.
 
-Based on the selected detection mode (or default), your results will appear in the **Textract Result** section under the appropriate tab.
-
-### 🔹 Default: Text Detection (Raw Text Tab)
-
-If no specific detection option is enabled, the tool will extract **all visible text** from your document and display it in the **Raw Text** tab.
-
-![Text Detection Web](/images/text-detection.webp)
-
-### 🔹 Table Detection (Tables Tab)
-
-If **Table Detection** is enabled, Textract identifies and extracts **table structures**, including rows, columns, and cell values, and displays them in the **Tables** tab.
-
-![Table Analysis Web](/images/table-analysis.webp)
-
-### 🔹 Receipt Analysis (Receipt Summary Tab)
-
-If **Receipt Analysis** is enabled, the tool extracts detailed **purchase information**, including vendor names, item lists, prices, and totals - even if no column headers exist. Results are shown in the **Receipt Summary** tab.
-
-![Receipt Analysis Web](/images/receipt-analysis.webp)
+    ![Receipt Analysis Web](/images/receipt-analysis.webp)
+  </Tab>
+</Tabs>
 
 ### 🧠 Best Practices
 
