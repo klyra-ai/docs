@@ -25,14 +25,6 @@
         ]
       },
       {
-        "group": "Account",
-        "pages": [
-          "account/subscription-plans",
-          "account/my-account",
-          "account/affiliate-program"
-        ]
-      },
-      {
         "group": "AI Writing",
         "pages": [
           "ai-writing/ai-code",
@@ -99,6 +91,14 @@
           "productivity/seo-tool",
           "productivity/ai-textract",
           "productivity/brand-voice"
+        ]
+      },
+      {
+        "group": "Account",
+        "pages": [
+          "account/subscription-plans",
+          "account/my-account",
+          "account/affiliate-program"
         ]
       }
     ]

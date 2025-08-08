@@ -6,16 +6,13 @@ description: "The My Account section allows you to manage your profile, security
 Go to **Account** → **My Account** in the left panel of the dashboard.
 
 <Steps>
-  <Step title="Account overview">
+  <Step title="Account overview" stepNumber={1}>
     At the top of My Account you will see summary counters that show your current usage and status:
 
-    - **Documents Created**
-    - **Words Generated**
-    - **Images Created**
-    - **Voiceover Tasks**
-    - **Audio Transcribed**
-    - **Codes Generated**
-    - **Subscription Details** (current plan, next billing date, status)
+    - **Words Left**
+    - **Media Credits Left**
+    - **Characters Left**
+    - **Minutes Left**
 
     These metrics update in real time and give you a quick sense of remaining credits and overall activity.
 
@@ -23,22 +20,7 @@ Go to **Account** → **My Account** in the left panel of the dashboard.
       Use the counters to track monthly consumption and avoid unexpectedly hitting limits.
     </Tip>
   </Step>
-  <Step title="Personal details">
-    This section displays your saved contact and profile information:
-
-    - Full Name
-    - Email
-    - Referral ID and Referral Link (copyable)
-    - Job Role
-    - Company
-    - Website
-    - City
-    - Country
-    - Phone
-
-    If any information is out of date, use the Update Profile action described next.
-  </Step>
-  <Step title="Update profile">
+  <Step title="Update profile" stepNumber={2}>
     Click **Edit Profile** to change your account information.
 
     **Editable fields:**
@@ -58,13 +40,13 @@ Go to **Account** → **My Account** in the left panel of the dashboard.
 
     1. Click **Edit Profile**.
     2. Update the required fields and upload a new avatar if needed.
-    3. Click **Save** to apply changes.
+    3. Click **Update **to apply changes.
 
     <Info>
       Changing your email may require re-verification for security reasons. Check your inbox after saving if a verification step is prompted.
     </Info>
   </Step>
-  <Step title="Set defaults">
+  <Step title="Set defaults" stepNumber={3}>
     Set workspace defaults to speed up content creation and keep results consistent.
 
     **Available default settings:**
@@ -85,7 +67,7 @@ Go to **Account** → **My Account** in the left panel of the dashboard.
       Set your most common language, voice, and AI model here so generated content matches your brand voice automatically.
     </Tip>
   </Step>
-  <Step title="Change password">
+  <Step title="Change password" stepNumber={4}>
     Use this form to update your login password.
 
     **Fields:**
@@ -104,7 +86,7 @@ Go to **Account** → **My Account** in the left panel of the dashboard.
       Use a strong unique password and consider enabling 2FA for additional protection.
     </Tip>
   </Step>
-  <Step title="2FA authentication">
+  <Step title="2FA authentication" stepNumber={5}>
     Enable two factor authentication to add an extra layer of security to your account.
 
     **To activate Google Authenticator:**
@@ -124,7 +106,7 @@ Go to **Account** → **My Account** in the left panel of the dashboard.
     **What is Google Authenticator?**\
     Google Authenticator is a mobile app that generates time-based one-time passwords. Install it from your device store to complete setup
   </Step>
-  <Step title="Delete account">
+  <Step title="Delete account" stepNumber={6}>
     If you need to remove your account permanently, use the Delete Account option.
 
     <Danger>
