@@ -33,7 +33,7 @@
         ]
       },
       {
-        "group": "AI Content",
+        "group": "AI Writing",
         "pages": [
           "ai-content/ai-code",
           "ai-content/ai-writer",
@@ -43,7 +43,7 @@
         ]
       },
       {
-        "group": "AI Chat",
+        "group": "AI Conversations",
         "pages": [
           "ai-chat/ai-chat",
           "ai-chat/ai-file-chat",
@@ -52,7 +52,7 @@
         ]
       },
       {
-        "group": "AI Image",
+        "group": "AI Images & Editing",
         "pages": [
           "ai-image/ai-vision",
           "ai-image/ai-images",
@@ -63,7 +63,7 @@
         ]
       },
       {
-        "group": "AI Video",
+        "group": "AI Video Creation",
         "pages": [
           "ai-video/ai-avatars",
           "ai-video/ai-text-to-video",
@@ -72,7 +72,7 @@
         ]
       },
       {
-        "group": "AI Audio",
+        "group": "AI Audio & Voice",
         "pages": [
           "ai-audio/ai-music",
           "ai-audio/ai-voiceover",
@@ -84,7 +84,7 @@
         ]
       },
       {
-        "group": "AI Connect",
+        "group": "AI Connect & Integrations",
         "pages": [
           "ai-connect/ai-rss",
           "ai-connect/ai-youtube",
