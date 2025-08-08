@@ -35,20 +35,20 @@
       {
         "group": "AI Writing",
         "pages": [
-          "ai-content/ai-code",
-          "ai-content/ai-writer",
-          "ai-content/ai-rewriter",
-          "ai-content/smart-editor",
-          "ai-content/ai-article-wizard"
+          "ai-writing/ai-code",
+          "ai-writing/ai-writer",
+          "ai-writing/ai-rewriter",
+          "ai-writing/smart-editor",
+          "ai-writing/ai-article-wizard"
         ]
       },
       {
         "group": "AI Conversations",
         "pages": [
-          "ai-chat/ai-chat",
-          "ai-chat/ai-file-chat",
-          "ai-chat/ai-web-chat",
-          "ai-chat/ai-realtime-voice-chat"
+          "ai-conversations/ai-chat",
+          "ai-conversations/ai-file-chat",
+          "ai-conversations/ai-web-chat",
+          "ai-conversations/ai-realtime-voice-chat"
         ]
       },
       {
