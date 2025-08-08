@@ -3,109 +3,140 @@ title: "My Account"
 description: "The My Account section allows you to manage your profile, security, preferences, and subscription details in one place."
 ---
 
-<Steps>
-<Step title="Personal Details">
-View your profile info such as Full Name, Email, Referral ID, Job Role, Company, Website, City, Country, and Phone.
-</Step>
-<Step title="Update Profile">
-Edit Full Name, Job Role, Email, Phone, Avatar, Company Name, Address, City, Postal Code, and Country. Click **Save Changes** after updating.
-</Step>
-<Step title="Set Defaults">
-Select defaults for AI Voiceover Language, Voice, Template Language, Template AI Model, Chatbot AI Model, and Image Model.
-</Step>
-<Step title="Change Password">
-Enter your current password, new password, confirm new password, and click **Change**.
-</Step>
-<Step title="2FA Authentication">
-Activate Google Two-Factor Authentication for secure logins. Scan the QR code or enter the setup key, then provide the OTP.
-</Step>
-<Step title="Delete Account">
-Check the confirmation box and click **Yes, Delete My Account**. This action is irreversible.
-</Step>
-</Steps>
-
-
 ## 📍 Navigation
 
 Go to **Account** → **My Account** in the left panel of the dashboard.
 
-### 📊 Account Overview
+<Steps>
+  <Step title="Account overview">
+    At the top of My Account you will see summary counters that show your current usage and status:
 
-At the top of the **My Account** page, you will see:
+    - **Documents Created**
+    - **Words Generated**
+    - **Images Created**
+    - **Voiceover Tasks**
+    - **Audio Transcribed**
+    - **Codes Generated**
+    - **Subscription Details** (current plan, next billing date, status)
 
-- **Documents Created**
-- **Words Generated**
-- **Images Created**
-- **Voiceover Tasks**
-- **Audio Transcribed**
-- **Codes Generated**
-- **Subscription Details**
+    These metrics update in real time and give you a quick sense of remaining credits and overall activity.
 
-### 1. Personal Details
+    <Tip>
+      Use the counters to track monthly consumption and avoid unexpectedly hitting limits.
+    </Tip>
+  </Step>
+  <Step title="Personal details">
+    This section displays your saved contact and profile information:
 
-View your current profile information including:
+    - Full Name
+    - Email
+    - Referral ID and Referral Link (copyable)
+    - Job Role
+    - Company
+    - Website
+    - City
+    - Country
+    - Phone
 
-- Full Name
-- Email
-- Referral ID & Referral Link
-- Job Role
-- Company
-- Website
-- City & Country
-- Phone Number
+    If any information is out of date, use the Update Profile action described next.
+  </Step>
+  <Step title="Update profile">
+    Click **Edit Profile** to change your account information.
 
-### 2. Update Profile
+    **Editable fields:**
 
-Edit your personal and company information:
+    - Full Name
+    - Job Role
+    - Email Address
+    - Phone Number
+    - Change Avatar (upload a new avatar image)
+    - Company Name
+    - Address Line
+    - City
+    - Postal Code
+    - Country
 
-- **Edit Profile:** Full Name, Job Role, Email Address, Phone Number
-- **Change Avatar** by uploading a new profile image
-- **Company Information:** Company Name, Address Line, City, Postal Code, Country
+    **Steps:**
 
-Click **Save Changes** after updating.
+    1. Click **Edit Profile**.
+    2. Update the required fields and upload a new avatar if needed.
+    3. Click **Save** to apply changes.
 
-### 3. Set Defaults
+    <Info>
+      Changing your email may require re-verification for security reasons. Check your inbox after saving if a verification step is prompted.
+    </Info>
+  </Step>
+  <Step title="Set defaults">
+    Set workspace defaults to speed up content creation and keep results consistent.
 
-Configure your preferred default settings:
+    **Available default settings:**
 
-- Default AI Voiceover Studio Language
-- Default AI Voiceover Studio Voice
-- Default Language for Templates
-- Default AI Model for Templates
-- Default AI Model for Chatbots
-- Default AI Image Model
+    - Default AI Voiceover Studio Language
+    - Default AI Voiceover Studio Voice
+    - Default Language for Templates
+    - Default AI Model for Templates
+    - Default AI Model for Chatbots
+    - Default AI Image Model
 
-These settings will be automatically applied when you use the respective tools.
+    **Steps:**
 
-### 4. Change Password
+    1. In Set Defaults, choose the desired option for each field.
+    2. Click **Save Defaults** to apply them account-wide.
 
-- Enter your **Current Password**
-- Enter your **New Password**
-- Confirm your **New Password**
-- Click **Change** to update
+    <Tip>
+      Set your most common language, voice, and AI model here so generated content matches your brand voice automatically.
+    </Tip>
+  </Step>
+  <Step title="Change password">
+    Use this form to update your login password.
 
-### 5. 2FA Authentication
+    **Fields:**
 
-Enhance your account security by enabling **Google Two-Factor Authentication**.
+    - Current Password
+    - New Password
+    - Confirm New Password
 
-1. Click **Activate 2FA Authentication**
-2. Scan the QR code shown on the page **or** use the provided **Setup Key** in your Google Authenticator app
-3. Open the Google Authenticator app on your device (install it from your mobile app store if not already installed)
-4. Enter the **6-digit OTP** generated by the app
-5. Click **Activate**
+    **Steps:**
 
-<Tip>
-  Google Authenticator generates time-based codes required during the login process for added security.
-</Tip>
+    1. Enter your current password.
+    2. Enter and confirm the new password.
+    3. Click **Change** to save.
 
-### 6. Delete Account
+    <Tip>
+      Use a strong unique password and consider enabling 2FA for additional protection.
+    </Tip>
+  </Step>
+  <Step title="2FA authentication">
+    Enable two factor authentication to add an extra layer of security to your account.
 
-<Warning>
-  This action is irreversible.\
-  Deleting your account will remove all your data and generated results. You will not be able to recover them.
-</Warning>
+    **To activate Google Authenticator:**
 
-**Steps:**
+    1. Click **Activate 2FA Authentication**.
+    2. Scan the displayed QR code with Google Authenticator or a compatible app on your mobile device.
+    3. If you cannot scan the QR code, use the setup key below to add the account manually.
 
-1. Check the box **I confirm that I would like to completely delete my account on this platform**
-2. Click **Yes, Delete My Account**
+    **Setup Key:** XXXXXXXXXXXXXXXX
+
+    4. Enter the 6-digit code from your authenticator app in the **Enter Google Authenticator OTP** field.
+    5. Click **Activate**.
+
+    <Warning>
+      Store your setup key or backup codes somewhere safe. If you lose access to your authenticator app and do not have backup codes, you may lose access to your account.
+    </Warning>
+    **What is Google Authenticator?**\
+    Google Authenticator is a mobile app that generates time-based one-time passwords. Install it from your device store to complete setup
+  </Step>
+  <Step title="Delete account">
+    If you need to remove your account permanently, use the Delete Account option.
+
+    <Warning>
+      Deleting your account will permanently erase all account details and generated results. This action cannot be undone.
+    </Warning>
+    **Steps to delete your account:**
+
+    1. Read the warning carefully.
+    2. Confirm by checking the confirmation checkbox:\
+       `I confirm that I would like to completely delete my account on this platform`
+    3. Click **Yes, Delete My Account** to proceed.
+  </Step>
+</Steps>
