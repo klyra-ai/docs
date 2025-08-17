@@ -39,8 +39,7 @@
         "pages": [
           "ai-conversations/ai-chat",
           "ai-conversations/ai-file-chat",
-          "ai-conversations/ai-web-chat",
-          "ai-conversations/ai-realtime-voice-chat"
+          "ai-conversations/ai-web-chat"
         ]
       },
       {
