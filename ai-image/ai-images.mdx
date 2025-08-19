@@ -1,4 +1,166 @@
 ---
 title: "AI Images"
-description: "Description of your new file."
+description: "Create and enhance images with Midjourney, DALL·E, Clipdrop, Flux, and Stable Diffusion inside Klyra AI. Produce professional visuals for web design, advertising, e-commerce, and social media with full control over model, resolution, style, lighting, medium, mood, and more."
 ---
+
+## Introduction
+
+The **AI Image Generator** in Klyra AI transforms your creative ideas into professional-quality visuals. Whether you’re building a campaign banner, an e-commerce listing photo, or concept art, you can fine-tune results with advanced options like **style, mood, lighting, artist presets, and aspect ratios**.
+
+Different AI models bring unique strengths:
+
+- **Midjourney** → Artistic and cinematic creativity.
+- **DALL·E** → Clean, concept-driven visuals (great for products).
+- **Stable Diffusion** → Flexible customization with aspect ratios and styles.
+- **Flux** → Fast results with square/portrait/landscape presets.
+- **Clipdrop** → Object-focused edits and background handling for e-commerce.
+
+## How to Use
+
+> 🔎 **Navigation:** **Dashboard → Left Panel → AI Images & Editing → AI Images**
+
+This opens the AI Image Generator workspace.
+
+<img
+  src="/images/klyra-ai-image-generator.webp"
+  alt="Klyra Ai Image Generator Web"
+  class="border rounded-lg shadow-md"
+/>
+
+<Steps>
+  <Step title="Configure the Control Panel">
+    The right panel allows you to set generation preferences:
+
+    - **Image Model:** Choose from **Midjourney, DALL·E, Clipdrop, Flux, Stable Diffusion**.
+    - **Number of Images:** Adjust with **±** (default: 1).
+    - **Resolution / Aspect Ratio:** Options depend on the model.
+    - **Style, Lighting, Medium, Mood, Artist Name:** Fine-tune for creative direction.
+
+    <Note>
+      Controls vary by model (e.g., DALL·E = fixed 1024×1024, Flux = quick presets, Stable Diffusion = custom aspect ratios).
+    </Note>
+  </Step>
+  <Step title="Enter your prompt">
+    Describe your desired image in detail, then click **Generate**.
+
+    - Include subject, environment, style, lighting, and mood for best results.
+    - Example: __“A pair of running shoes isolated on a pure white background, ecommerce-ready, high contrast.”__
+
+      <img
+        src="/images/klyra-ai-clipdrop-running-shoes.webp"
+        alt="Klyra Ai Clipdrop Running Shoes Web"
+        class="border rounded-lg shadow-md"
+      />
+  </Step>
+  <Step title="Review & Manage Results">
+    - Generated images appear **below the prompt area**.
+    - Click **View** to inspect all settings used for that image.
+    - **Download immediately** or access later under\
+      **AI Panel → Documents → All Images**.
+  </Step>
+</Steps>
+
+## 🌟 Model Examples & Test Prompts
+
+Here are tested prompts and settings you can try to explore the strengths of each model:
+
+### 🔹 Midjourney – Cinematic & Artistic
+
+**Prompt:** _“A futuristic city skyline at night, glowing neon lights, cyberpunk aesthetic, flying cars, rain-soaked streets, cinematic wide shot.”_\
+**Parameters:** Style = Cinematic, Lighting = Dramatic, Medium = Digital Art, Mood = Dark/Colorful
+
+👉 **Best for:** Concept art, cinematic visuals, and imaginative worlds.
+
+<Warning>
+  **Note on Midjourney Outputs**\
+  Unlike other models, Midjourney generates a **grid of 4 sub-images (variants)** inside a single image file:
+
+  - If you select **1 image**, you’ll receive **1 grid containing 4 variants**.
+  - If you select **2 images**, you’ll receive **2 grids containing a total of 8 variants**.
+  - Each grid has a **higher resolution** since it combines the resolution of all 4 sub-images.
+
+  This makes Midjourney especially useful for **creative exploration**, as you get multiple variations of your prompt in a single generation.
+</Warning>
+
+<img
+  src="/images/klyra-ai-midjourney-city-sklyline.webp"
+  alt="Klyra Ai Midjourney City Sklyline Web"
+  class="border rounded-lg shadow-md"
+/>
+
+---
+
+### 🔹 DALL·E – Clean, Conceptual, Realistic
+
+**Prompt:** _“Minimalist product photo of wireless earbuds on a marble background, soft shadows, studio lighting.”_\
+**Parameters:** Resolution = 1024×1024, Style = Photographic, Lighting = Studio/Soft
+
+👉 **Best for:** Product mockups, e-commerce images, clear conceptual renders.
+
+<img
+  src="/images/klyra-ai-dalle-wireless-earbuds.webp"
+  alt="Klyra Ai Dalle Wireless Earbuds Web"
+  class="border rounded-lg shadow-md"
+/>
+
+---
+
+### 🔹 Stable Diffusion – Flexible & Customizable
+
+**Prompt:** _“A fantasy landscape of a floating castle surrounded by clouds and waterfalls, epic scale, realistic yet dreamlike atmosphere.”_\
+**Parameters:** Aspect Ratio = 2:3 (portrait), Style = Realism, Lighting = Cinematic, Medium = Watercolor, Mood = Imaginative
+
+👉 **Best for:** Posters, fantasy art, flexible aspect ratios, styled outputs.
+
+<img
+  src="/images/klyra-ai-sd-floating-castle.webp"
+  alt="Klyra Ai Sd Floating Castle Web"
+  class="border rounded-lg shadow-md"
+/>
+
+---
+
+### 🔹 Flux – Quick & Business-Ready
+
+**Prompt:** _“An office workspace with a modern laptop, coffee mug, and notepad, bright and inviting atmosphere, productivity theme.”_\
+**Parameters:** Resolution = Landscape, Style = Photographic, Lighting = Warm, Medium = Canvas, Mood = Cheerful
+
+👉 **Best for:** Website headers, marketing visuals, fast square/portrait/landscape results.
+
+<img
+  src="/images/klyra-ai-flux-laptop-on-a-table.webp"
+  alt="Klyra Ai Flux Laptop On A Table Web"
+  class="border rounded-lg shadow-md"
+/>
+
+---
+
+### 🔹 Clipdrop – Practical Object Editing
+
+**Prompt:** _“A pair of running shoes isolated on a pure white background, ecommerce-ready, high contrast.”_\
+**Parameters:** Resolution = Square, Style = Photographic, Lighting = Studio/Soft
+
+👉 **Best for:** Background removal, clean product shots, catalog images.
+
+<img
+  src="/images/klyra-ai-clipdrop-running-shoes.webp"
+  alt="Klyra Ai Clipdrop Running Shoes Web"
+  class="border rounded-lg shadow-md"
+/>
+
+### 💡 Tips
+
+- **Iterate:** Start with 1 image to refine your prompt/settings, then generate more.
+- **Match aspect ratio to platform:** Square for Instagram, Portrait for Stories, Landscape for banners.
+- **Use Mood \+ Lighting together:** “Cheerful \+ Warm” gives a very different vibe than “Dark \+ Dramatic.”
+- **Save variations:** Use the View option to compare results across different parameter sets.
+- **Credits:** Each generation consumes **Media Credits** from your subscription.
+
+### 📌 Example Use Cases
+
+- **Web Design:** Create hero images, banners, and decorative visuals.
+- **Advertising:** Generate campaign visuals or seasonal creatives.
+- **E-commerce:** Produce studio-quality, background-free product photos.
+- **Social Media:** Generate eye-catching, platform-optimized content.
+- **Content Marketing:** Visualize blog posts, infographics, and editorial illustrations.
+- **Creative Exploration:** Experiment with moods, mediums, and artist-style presets for inspiration.
