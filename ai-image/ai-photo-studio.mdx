@@ -1,4 +1,268 @@
 ---
 title: "AI Photo Studio"
-description: "Description of your new file."
+description: "Edit, enhance, and transform your photos with AI-powered precision. From reimagining entire scenes to inpainting, outpainting, and upscaling, AI Photo Studio delivers professional-grade photo editing in just a few clicks."
 ---
+
+## Introduction
+
+The **AI Photo Studio** in Klyra AI is a **multi-purpose image editing suite** built on advanced Stable Diffusion algorithms. Whether you want to:
+
+- **Reimagine** an image with new artistic directions,
+- **Erase, replace, or inpaint** elements,
+- **Outpaint** to expand the canvas,
+- **Convert sketches or structures** into finished art,
+- **Upscale conservatively or creatively**,
+- Or even create a **new image from text** —
+
+AI Photo Studio offers all the tools in a single, intuitive workspace.
+
+With **task-based editing, advanced settings, and flexible output**, this tool is equally valuable for **photographers, designers, marketers, and content creators**.
+
+## How to Use
+
+### Navigation
+
+**Dashboard → Left Panel → AI Images & Editing → AI Photo Studio**
+
+<Steps>
+  <Step title="Select your task">
+    From the **Task dropdown** (default = Reimagine), choose the editing function you want:
+
+    - **Reimagine** – Generate a new artistic interpretation of your image.
+    - **Same Style Image** – Apply the style of your uploaded image to new generations.
+    - **Erase Objects** – Select and remove unwanted elements.
+    - **Inpaint** – Replace or fix specific areas inside your image.
+    - **Outpaint** – Extend the canvas beyond the original boundaries.
+    - **Search and Replace** – Swap targeted objects (e.g., “replace apple with orange”).
+    - **Remove Background** – Isolate the subject from its backdrop.
+    - **Sketch to Image** – Convert rough sketches into polished visuals.
+    - **Structure to Image** – Generate new images guided by structural outlines.
+    - **Conservative Upscale** – Improve quality while keeping details intact.
+    - **Creative Upscale** – Enhance with AI-added creative flair.
+    - **Text to Image** – Generate a fresh image directly from your prompt.
+  </Step>
+  <Step title="Upload target image">
+    - Click **Upload** or **Drag & Drop** your file.
+    - Supported formats: **PNG, JPEG, WEBP**.
+    - Not required for **Text to Image** (you only provide a prompt).
+  </Step>
+  <Step title="Enter your prompt">
+    - Write clear instructions for the AI.
+    - Examples:
+      - Reimagine → _“Transform this living room into a futuristic cyberpunk lounge.”_
+      - Inpaint → _“Replace the sky with a sunset.”_
+      - Erase Objects → _“Remove the coffee mug from the desk.”_
+  </Step>
+  <Step title="Generate your output">
+    - Click **Generate**.
+    - Your new image will appear on the right of the workspace.
+
+      <img
+        src="/images/klyra-ai-structure-to-image-dashboard.webp"
+        alt="Klyra Ai Structure To Image Dashboard Web"
+        class="border rounded-lg shadow-md"
+      />
+  </Step>
+  <Step title="Advanced settings (optional)">
+    Fine-tune the generation process with **Advanced Settings**:
+
+    - **Negative Prompt** – Specify what to avoid (e.g., _“no text, no extra people”_).
+    - **Creativity** _(default 0.5)_ – Controls freedom of interpretation (0 = faithful, 1 = very imaginative).
+    - **Control Strength** _(default 0.7)_ – Balances influence of original image (0 = minimal, 1 = maximum).
+    - **Seed** _(default 0)_ – Fix randomness for repeatable results (0 = random each time).
+  </Step>
+  <Step title="Save & Export">
+    - **Download** your edited image immediately,
+    - Or access later under **AI Panel → Documents → All Images**.
+  </Step>
+</Steps>
+
+### 💡 Tips
+
+- Use **Reimagine** for creative experimentation, **Inpaint/Erase** for precision fixes.
+- Combine **Outpaint** with **Mood \+ Style** prompts to create dramatic extensions.
+- For product photos, use **Remove Background** before placing items into marketing layouts.
+- **Same Style Image** is excellent for maintaining brand consistency across campaigns.
+- If you want reproducibility, set a **specific seed** value.
+
+### 📌 Example Use Cases
+
+- **Design Teams:** Reimagine mockups for multiple creative directions.
+- **E-commerce:** Remove backgrounds, upscale images, or replace elements for catalog consistency.
+- **Marketing Agencies:** Outpaint images into banners, ads, or posters.
+- **Artists & Illustrators:** Turn sketches into polished artworks with “Sketch to Image.”
+- **Photographers:** Use conservative upscaling to enhance resolution without losing authenticity.
+- **Content Creators:** Quickly fix photos by erasing distractions or replacing unwanted objects.
+
+## 📌 AI Photo Studio Capabilities in Action
+
+Below are practical examples of how each feature works. Each description can be paired with its generated image output for demonstration.
+
+---
+
+### 🔹 Reimagine
+
+- **Input:** Street photo
+
+  <img
+    src="/images/real-city.webp"
+    alt="Real City Web"
+    class="border rounded-lg shadow-md"
+  />
+- **Prompt:** _“Reimagine this as a futuristic neon cyberpunk street scene.”_
+- **Use Case:** Creative experimentation & mood transformation.
+- **Output:**
+
+  <img
+    src="/images/klyra-ai-cyberpunk-city.webp"
+    alt="Klyra Ai Cyberpunk City Web"
+    class="border rounded-lg shadow-md"
+  />
+
+---
+
+### 🔹 Same Style Image
+
+- **Input:** Watercolor painting
+
+  <img
+    src="/images/watercolor-painting-of-a-woman.webp"
+    alt="Watercolor Painting Of A Woman Web"
+    class="border rounded-lg shadow-md"
+  />
+- **Prompt:** _“Generate a portrait of a woman in the same watercolor style as the reference immage”_
+- **Use Case:** Maintaining brand consistency or replicating artistic styles.
+- **Output:**
+
+  <img
+    src="/images/klyra-ai-watercolor-painting-of-a-woman.webp"
+    alt="Klyra Ai Watercolor Painting Of A Woman Web"
+    class="border rounded-lg shadow-md"
+  />
+
+---
+
+### 🔹 Erase Objects
+
+- **Input:** Desk photo
+
+  <img
+    src="/images/laptop-and-coffee-cup-on-a-table.webp"
+    alt="Laptop And Coffee Cup On A Table Web"
+    class="border rounded-lg shadow-md"
+  />
+- **Prompt:** _“Erase the coffecup from the desk.”_
+- **Use Case:** Removing distractions or unwanted objects.
+- **Output:**
+
+  <img
+    src="/images/klyra-ai-erase-coffee-cup-on-a-table.webp"
+    alt="Klyra Ai Erase Coffee Cup On A Table Web"
+    class="border rounded-lg shadow-md"
+  />
+
+---
+
+### 🔹 Inpaint
+
+- **Input:** Landscape photo
+
+  <img
+    src="/images/mountains-daytime.webp"
+    alt="Mountains Daytime Web"
+    class="border rounded-lg shadow-md"
+  />
+- **Prompt:** _“Replace the cloudy sky with a bright sunset.”_
+- **Use Case:** Fixing or altering specific parts of an image.
+- **Output:**
+
+  <img
+    src="/images/klyra-ai-inpaint-sunset.webp"
+    alt="Klyra Ai Inpaint Sunset Web"
+    class="border rounded-lg shadow-md"
+  />
+
+---
+
+### 🔹 Outpaint
+
+- **Input:** Portrait photo
+
+  <img
+    src="/images/portrait-of-woman-on-a-tree-trunk.webp"
+    alt="Portrait Of Woman On A Tree Trunk Web"
+    class="border rounded-lg shadow-md"
+  />
+- **Prompt:** **“**_Expand the forest with more tall trees and subtle morning mist, keeping natural lighting._**”**
+- **Use Case:** Extending images for banners, posters, or creative layouts.
+- **Output:**
+
+  <img
+    src="/images/klyra-ai-portrait-of-woman-on-a-tree-trunk.webp"
+    alt="Klyra Ai Portrait Of Woman On A Tree Trunk Web"
+    class="border rounded-lg shadow-md"
+  />
+
+---
+
+### 🔹 Search & Replace
+
+- **Input:** Portrait Photo
+
+  <img
+    src="/images/portrait-of-woman-on-a-tree-trunk.webp"
+    alt="Portrait Of Woman On A Tree Trunk Web"
+    class="border rounded-lg shadow-md"
+  />
+- **Prompt:** _“A tiger sitting on a moss-covered fallen tree trunk in a dense forest, surrounded by tall trees and natural foliage, with soft natural light filtering through.”_
+- \*\*Search Prompt: \*\*"_Replace the woman with a tiger sitting on the tree trunk_"
+- **Use Case:** Quick swaps in product/marketing visuals.
+- \*\*Output: \*\*
+
+  <img
+    src="/images/klyra-ai-tiger-on-a-tree-trunk.webp"
+    alt="Klyra Ai Tiger On A Tree Trunk Web"
+    class="border rounded-lg shadow-md"
+  />
+
+---
+
+### 🔹 Sketch to Image
+
+- **Input:** Hand-drawn car sketch
+
+  <img
+    src="/images/sketch-of-a-sports-car.webp"
+    alt="Sketch Of A Sports Car Web"
+    class="border rounded-lg shadow-md"
+  />
+- **Prompt:** _“Generate a realistic sports car based on this sketch.”_
+- **Use Case:** Turning rough concepts into finished visuals.
+- **Output:**
+
+  <img
+    src="/images/klyra-ai-modern-sports-car.webp"
+    alt="Klyra Ai Modern Sports Car Web"
+    class="border rounded-lg shadow-md"
+  />
+
+---
+
+### 🔹 Structure to Image
+
+- **Input:** Building outlines
+
+  <img
+    src="/images/structure-of-a-modern-building.webp"
+    alt="Structure Of A Modern Building Web"
+    class="border rounded-lg shadow-md"
+  />
+- **Prompt:** _“Generate a modern glass skyscraper using this structure.”_
+- **Use Case:** Architectural previews or mockups.
+- **Output**:
+
+  <img
+    src="/images/klyra-ai-image-modern-building.webp"
+    alt="Klyra Ai Image Modern Building Web"
+    class="border rounded-lg shadow-md"
+  />
