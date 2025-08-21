@@ -1,15 +1,15 @@
 ---
 title: "AI Voiceover"
-description: "Convert your written scripts into natural, lifelike speech with Klyra AI’s Text-to-Speech technology. Choose from thousands of voices, multiple vendors, and 140+ languages to bring your content to life."
+description: "Convert your scripts into natural, lifelike speech with Klyra AI’s Text-to-Speech (TTS) engine. Choose from thousands of voices, 140+ languages, and multiple AI vendors to produce professional audio in minutes."
 ---
 
 ## Introduction
 
-The **AI Voiceover** feature in Klyra AI transforms text into professional-quality voiceovers, making it an essential tool for creators, educators, marketers, and businesses.
+The **AI Voiceover** feature in Klyra AI unlocks advanced **text-to-speech** capabilities, helping you generate realistic narrations, ads, training audio, and more.
 
-With access to **six AI vendors** — **Elevenlabs, AWS, GCP, Azure, OpenAI, and Speechify** — you can choose from **thousands of voices** across **140\+ languages and dialects**.
+With access to **six AI vendors** — **Elevenlabs, AWS, GCP, Azure, OpenAI, and Speechify** — you can synthesize voices in **thousands of variations across 140\+ languages and dialects**.
 
-Whether you’re producing **ads, narrations, podcasts, training materials, or videos**, AI Voiceover ensures you deliver **clear, natural, and engaging audio**.
+This makes it a versatile tool for **educators, marketers, podcasters, accessibility providers, and content creators**.
 
 ## How to Use
 
@@ -23,53 +23,70 @@ Whether you’re producing **ads, narrations, podcasts, training materials, or v
   class="border rounded-lg shadow-md"
 />
 
-
 <Steps>
   <Step title="Pick your language">
     - Select from 140\+ supported languages and dialects.
     - Example: _English (US), Spanish (MX), French (FR), Hindi (IN)_.
   </Step>
-  <Step title="Choose a voice">
-    - Browse vendor-provided voices.
-    - Click the **🔊 Preview button** next to a voice to listen before using it.
-
-      <Warning>
-        Previewing also consumes character credits, just like full synthesis.
-      </Warning>
+  <Step title="Choose your voice">
+    - Browse available voices from the supported AI vendors.
+    - A **🔊** **voice preview button** is available to audition vendor samples.
   </Step>
-  <Step title="Write your script details">
-    - **Title:** Enter a title for your script (for easy reference).
-    - **Script:** Type or paste the text you want converted into speech.
-    - You may also add **SSML (Speech Synthesis Markup Language)** tags (where supported, e.g., AWS & GCP) to control pacing, pauses, emphasis, and effects.
+  <Step title="Add your script details">
+    - **Title:** Enter a title to help organize your script.
+    - **Script:** Paste or write the text you want converted into speech.
+    - Some vendors (AWS, GCP) support **SSML (Speech Synthesis Markup Language)** tags for advanced control (pauses, emphasis, speed, etc.).
   </Step>
   <Step title="Select output format">
-    - Available formats: **MP3, WAV, OGG, WEBM**.
-    - Choose based on your intended platform or playback device.
+    - Choose the audio format best suited to your use case:
+      - **MP3** — lightweight, web-friendly.
+      - **WAV** — uncompressed, studio quality.
+      - **OGG / WEBM** — optimized for web applications.
   </Step>
-  <Step title="Synthesize">
-    - Click **Synthesize**.
-    - The generated audio will appear in **AI Voiceover Results** below.
-    - It will also be saved automatically under\
-      **AI Panel → Documents → All Voiceovers** for later use.
+  <Step title="Listen or Synthesize (consumes credits)">
+    - After entering your script and format, you’ll see two options:
+      - **Listen** — Quickly renders your _current script_ so you can audition the result.
+      - **Synthesize** — Produces the **final voiceover file** in your chosen format.
 
-    <audio controls style="width:250px;">
-  <source src="https://klyra.ai/storage/voiceover/When-the-World-Falls-Silent.mp3" type="audio/mpeg" />
-</audio>
+    <Warning>
+      Both **Listen and Synthesize consume Character credits** based on the script length.
+    </Warning>
+    <Tip>
+      👉 To save credits, try \*\*Listen \*\*with a short sample before synthesizing the full script.
+    </Tip>
+  </Step>
+  <Step title="Access your results">
+    - Your generated voiceover appears in **AI Voiceover Results** below the workspace.
+    - It is also stored under **AI Panel → Documents → All Voiceovers** for future reference.
+  </Step>
+  <Step title="Enhance with SSML (Optional)">
+    - For vendors like **AWS** and **GCP**, you can insert **SSML tags** into your script.
+    - Examples:
+      - `<break time="1s"/>` → Adds a pause.
+      - `<emphasis level="strong">important</emphasis>` → Stresses a word.
+      - `<prosody rate="slow">This part is slower</prosody>` → Adjusts pacing.
+  </Step>
+  <Step title="🎧 Sample Output">
+    Here’s a sample voiceover generated using **Klyra AI Voiceover**:
+    <video controls preload="none" className="w-full h-[40px] rounded-md" src="https://klyra.ai/storage/video/when-the-world-falls-silent.mp4" />
+    <Check>
+      This demonstrates how natural and professional Klyra AI’s text-to-speech sounds when converting written content into lifelike audio.
+    </Check>
   </Step>
 </Steps>
 
 ### 💡 Tips
 
-- **Test multiple vendors:** Each has different strengths. Try **Elevenlabs** for emotional expressiveness, **AWS/GCP** for robust SSML support, and **Azure** for multilingual coverage.
-- **Keep scripts natural:** Write text the way you’d like it spoken — short sentences, conversational tone.
-- **Use SSML effects:** Add pauses (`<break time="1s"/>`), emphasis, or speed adjustments to fine-tune delivery (AWS & GCP supported).
-- **Preview before full synthesis:** Helpful to check if a voice matches your project tone.
-- **Format wisely:** Use **MP3** for web/podcasts, **WAV** for studio-quality editing.
+- **Start with shorter scripts** to test different voices and tones without using too many credits.
+- **Match voice to audience:** A calm, clear voice works well for e-learning; a lively, energetic one is great for ads.
+- **Use SSML sparingly:** It enhances realism but should feel natural.
+- **Choose format wisely:** Use **WAV** for professional editing, **MP3** for distribution.
+- **Organize by title:** Helps you quickly locate saved scripts in your documents.
 
 ### 📌 Example Use Cases
 
-- **E-learning:** Convert course materials into audio lectures.
-- **Marketing & Ads:** Produce professional ad voiceovers in multiple languages.
-- **Content Creators:** Add narration to YouTube videos, podcasts, or audiobooks.
-- **Accessibility:** Provide voice output for articles, blogs, or documents.
-- **Corporate Training:** Generate audio for onboarding or compliance modules.
+- **E-learning:** Convert training material into audio lectures for global learners.
+- **Marketing & Ads:** Produce multilingual ad campaigns with professional narrations.
+- **Content Creators:** Generate narration for YouTube videos, podcasts, or audiobooks.
+- **Accessibility:** Enable voice-read articles, blogs, and documents.
+- **Corporate Training:** Deliver compliance and onboarding audio in multiple languages.
