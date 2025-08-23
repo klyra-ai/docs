@@ -1,4 +1,208 @@
 ---
-title: "Integrations"
-description: "Description of your new file."
+title: "WordPress Integration"
+description: "Take advantage of Klyra AI’s powerful AI tools to generate, schedule, and publish posts directly to your WordPress websites."
 ---
+
+## Introduction
+
+The **WordPress Integration** feature in Klyra AI enables you to seamlessly post AI-generated content to your WordPress websites.
+
+You can:
+
+- **Generate posts** with AI Writer or from saved documents.
+- **Publish instantly** to connected WordPress domains.
+- **Schedule posts** for a specific date and time.
+
+This integration streamlines your content pipeline, reducing manual copy-paste and giving you full control of your publishing strategy.
+
+## WordPress Account Setup
+
+Before connecting WordPress to Klyra AI, configure your WordPress site:
+
+<Steps>
+  <Step title="Connect to your WordPress account">
+    - Log in to your **WordPress Admin Dashboard**.
+  </Step>
+  <Step title="Disable 2FA (if enabled)">
+    - Turn off two-factor authentication for smoother integration.
+  </Step>
+  <Step title="Update Permalink settings">
+    - Navigate to **Settings → Permalinks**.
+    - Select **Post Name**.
+
+      <img
+        src="/images/permalinks.webp"
+        alt="Permalinks Web"
+        class="border rounded-lg shadow-md"
+      />
+  </Step>
+  <Step title="Install Authentication Plugin">
+    - Go to **Plugins → Add New Plugin**.
+    - Install **WREST API Authentication for WP – JWT Auth and more** by Mini Orange.
+    - After installation, ensure the plugin is **Activated**.
+
+      <img
+        src="/images/rest-api-plugin.webp"
+        alt="Rest Api Plugin Web"
+        class="border rounded-lg shadow-md"
+      />
+  </Step>
+  <Step title="Configure JWT Authentication">
+    - Go to **miniOrange API Authentication**.
+    - Click **JWT Authentication**.
+
+      <img
+        src="/images/authentication-method.webp"
+        alt="Authentication Method Web"
+        class="border rounded-lg shadow-md"
+      />
+    - Follow the wizard: **Next → Finish**.
+
+      <img
+        src="/images/jwt-authentication.webp"
+        alt="Jwt Authentication Web"
+        class="border rounded-lg shadow-md"
+      />
+  </Step>
+</Steps>
+
+## 🔗 How to Add WordPress Website in Klyra AI
+
+> 🔎 **Navigation:** Dashboard → Left Panel → AI Connect & Integrations → Integrations
+
+<Steps>
+  <Step title="Step 1">
+    Click **Manage** under WordPress Integration.
+
+    <img
+      src="/images/klyra-ai-integrations.webp"
+      alt="Klyra Ai Integrations Web"
+      class="border rounded-lg shadow-md"
+    />
+  </Step>
+  <Step title="Step 2">
+    Select Add New Domain.
+
+    <img
+      src="/images/klyra-ai-add-new-domain.webp"
+      alt="Klyra Ai Add New Domain Web"
+      class="border rounded-lg shadow-md"
+    />
+  </Step>
+  <Step title="Step 3">
+    Provide the following connection details:
+
+    - **WP Website Name** (for identification in Klyra AI).
+    - **WP Website URL** (no trailing “/”).
+    - **WordPress Admin Username**. (not emailid)
+    - **WordPress Admin Password**.
+    - **Activate checkbox** (toggle on).
+
+      <img
+        src="/images/klyra-ai-wordpress-authentication.webp"
+        alt="Klyra Ai Wordpress Authentication Web"
+        class="border rounded-lg shadow-md"
+        title=""
+      />
+  </Step>
+  <Step title="Step 4">
+    Click Create
+
+    - Klyra AI will validate the connection and generate a secure token.
+  </Step>
+  <Step title="Step 5">
+    If successful, you’ll see a confirmation message and the domain will appear in your connected list.
+  </Step>
+</Steps>
+
+<Tip>
+  You can connect multiple domains depending on your subscription plan.
+</Tip>
+
+## How to Use WordPress Integration
+
+Once connected, you can start publishing AI-generated posts.
+
+<Card title="Supported AI Tools">
+  - AI Writer
+  - Documents Results
+</Card>
+
+### Steps to Publish or Schedule
+
+<Steps>
+  <Step title="Step 1">
+    Navigate to **Dashboard → AI Writing → AI Writer** from the Left Panel to create new content, or access **AI Panel → Documents → All Documents** to work with previously generated documents.
+  </Step>
+  <Step title="Step 2">
+    Choose a template from AI Writer, or open any previously generated document.
+  </Step>
+  <Step title="Step 3">
+    On the left/right side of the document, click the **Publish** button → **Publish to WordPress**.
+
+    <img
+      src="/images/klyra-ai-dashboard-publish-to-wordpress.webp"
+      alt="Klyra Ai Dashboard Publish To Wordpress Web"
+      class="border rounded-lg shadow-md"
+    />
+  </Step>
+  <Step title="Step 4">
+    You’ll be redirected to the **Publish to WordPress page** with your generated content preloaded. Complete the form fields as needed, fields marked with a red **\*** are mandatory.
+
+    <img
+      src="/images/klyra-ai-publish-to-wordpress.webp"
+      alt="Klyra Ai Publish To Wordpress Web"
+      class="border rounded-lg shadow-md"
+    />
+  </Step>
+  <Step title="Step 5" stepNumber={5}>
+    Choose when to publish:
+
+    - **Immediately** — Publish now.
+    - **Schedule Date & Time** — Publish later.
+  </Step>
+  <Step title="Step 6" stepNumber={6}>
+    Confirm by clicking **Publish**.
+  </Step>
+  <Step title="Step 7" stepNumber={7}>
+    All posts (scheduled or published) appear in:
+
+    - **Integrations → WordPress** (inside Klyra AI).
+    - **Your WordPress dashboard** as published posts.
+
+    <img
+      src="/images/klyra-ai-scheduled-wordpress-post.webp"
+      alt="Klyra Ai Scheduled Wordpress Post Web"
+      class="border rounded-lg shadow-md"
+    />
+
+    <img
+      src="/images/klyra-ai-published-to-wordpress.webp"
+      alt="Klyra Ai Published To Wordpress Web"
+      class="border rounded-lg shadow-md"
+    />
+  </Step>
+</Steps>
+
+### 💡 Tips
+
+- **Always generate content first** before clicking Publish to WordPress.
+- **Use scheduling** to build a consistent posting pipeline across multiple domains.
+- **Multiple domains:** Add more than one WordPress site if your plan allows — perfect for agencies managing client websites.
+- **Preview before posting:** Ensure formatting and metadata are correct in the Publish page.
+- **Centralized management:** Track all posts (scheduled, live, or drafts) directly inside the WordPress integration panel in Klyra AI.
+
+### 📌 Example Use Cases
+
+- **Content Creators & Bloggers**\
+  Generate full blog posts in **AI Writer** and publish them directly to WordPress without copy-paste.
+- **Digital Marketing Agencies**\
+  Manage multiple client websites by connecting different WordPress domains in Klyra AI and scheduling posts in advance.
+- **Small Businesses**\
+  Use AI to draft **product announcements, promotions, or newsletters**, then schedule them to auto-publish at peak hours.
+- **E-commerce Stores**\
+  Create **SEO-optimized product descriptions or category pages** and instantly push them to your WordPress shop.
+- **Corporate Teams**\
+  Share **company news, event recaps, or press releases** directly to the corporate WordPress site with centralized approval.
+- **SEO Specialists**\
+  Use AI Writer to generate **keyword-rich articles** and publish them regularly, ensuring fresh content for search engines.
