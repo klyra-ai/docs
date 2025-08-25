@@ -7,6 +7,10 @@
     "light": "#7851e3",
     "dark": "#2a1d85"
   },
+  "description":"Explore Klyra AI’s official tutorials and documentation — your complete guide to mastering AI-powered tools for writing, design, voice, video, and productivity. Step-by-step instructions, practical tips, and real-world use cases help you create, automate, and innovate with ease.",
+  "thumbnails": {
+    "background": "/images/klyra-ai-watercolor-painting-of-a-woman.webp"
+  },
   "favicon": "/favicon.svg",
   "navigation": {
     "groups": [
