@@ -101,6 +101,12 @@
           "account/my-account",
           "account/affiliate-program"
         ]
+      },
+      {
+        "group": "FAQs",
+        "pages": [
+          "faqs/user-faqs"
+        ]
       }
     ]
   },
