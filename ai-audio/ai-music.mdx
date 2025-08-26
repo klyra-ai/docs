@@ -17,6 +17,12 @@ Klyra AI makes sound design accessible. With support for **Stable Audio** and **
   Access to this feature is only available with a **Starter** or **Premium** subscription plan.
 </Warning>
 
+<img
+  src="/images/klyra-ai-dashboard-ai-music.webp"
+  alt="Klyra Ai Dashboard Ai Music Web"
+  class="border rounded-lg shadow-md"
+/>
+
 ## How to Use
 
 > 🔎 **Navigation:** Dashboard → Left Panel → AI Audio & Voice → AI Music
@@ -32,10 +38,10 @@ Klyra AI makes sound design accessible. With support for **Stable Audio** and **
   </Step>
   <Step title="Using Stable Audio">
     1. Enter a **Title** for your music generation task.
-    2. Write your **Prompt** — be as descriptive as possible (e.g., _“A cinematic orchestral score with strings, piano, and rising brass for a movie intro”_).
+    2. Write your **Prompt** — be as descriptive as possible (e.g., _“A powerful orchestral soundtrack with soaring strings, deep percussion, and a heroic brass section. Starts softly with piano, builds into an epic climax with drums and horns, ending with a calm fade.”_).
     3. Ensure **Stable Audio** is selected.
     4. Set **Total Seconds** → Maximum is **47 seconds**.
-    5. Set **Steps** (for denoising/refinement) or leave default.
+    5. Set **Steps** (for denoising/refinement) or leave default. → Maximum is **1000**.
     6. Click **Generate**.
 
     **Key Features of Stable Audio:**
@@ -46,9 +52,16 @@ Klyra AI makes sound design accessible. With support for **Stable Audio** and **
   </Step>
   <Step title="Using Minimax Music">
     1. Enter a **Title** for your music generation task.
-    2. Write your **Prompt** — describe the style, mood, or lyrics (e.g., _“A pop-rock song with upbeat guitar and strong female vocals”_).
+    2. **Enter your Prompt or Lyrics** — describe the style, mood, or write short lyrics. If you’re adding lyrics, wrap them in `##` at the beginning and end, like this:
+       - (e.g., _“##Dancing lights and hearts collide,_
+
+         _We move together, side by side._
+
+         _Through the night our spirits fly,_
+
+         _Hand in hand, just you and I.##”_).
     3. Ensure **Minimax Music** is selected.
-    4. (Optional) Upload a **Reference Audio file** to guide the style of the composition.
+    4. Upload a **Reference Audio** file to guide the style and feel of your music. Make sure the clip is at least 15 seconds long.
     5. Click **Generate**.
 
     **Key Features of Minimax Music:**
@@ -65,6 +78,50 @@ Klyra AI makes sound design accessible. With support for **Stable Audio** and **
     - All results are also saved under **AI Panel → Documents → All Voiceovers (audio category)** for future access.
   </Step>
 </Steps>
+
+## 🎵 Stable Audio Example
+
+Here’s how you can create an AI music track using **Stable Audio**.
+
+- **Music Title:** Epic Cinematic Journey
+- **Prompt:** “A powerful orchestral soundtrack with soaring strings, deep percussion, and a heroic brass section. Starts softly with piano, builds into an epic climax with drums and horns, ending with a calm fade.”
+- **Settings Used:**
+  - Model: Stable Audio
+  - Duration: 30 seconds
+  - Steps: 50
+
+**Output:**\
+The generated track begins with soft piano notes, gradually building tension with layered strings and percussion. The middle section swells with dramatic brass and pounding drums, before tapering off into a peaceful, orchestral fade — just as described in the prompt.
+
+<video controls className="w-full max-w-md rounded-xl" src="https://klyra.ai/storage/video/epic-cinematic-journey.mp4" />
+
+## 🎵 Minimax Music Example
+
+Here’s how you can create an AI music track using **Minimax Music**.
+
+- **Music Title:** Dancing Lights
+- **Reference Audio:** reference-audio-sample.mp3 (≥15s, with music \+ vocals)
+
+  Reference Audio
+  <video controls className="w-full max-w-md rounded-xl" src="https://klyra.ai/storage/video/reference-audio-sample.mp4" />
+- **Prompt (Lyrics):**
+
+  ##Dancing lights and hearts collide,
+
+  We move together, side by side.
+
+  Through the night our spirits fly,
+
+  Hand in hand, just you and I.##
+- **Settings Used:**
+  - Model: Minimax Music
+  - Prompt contains short lyrics wrapped in `##`
+  - Reference audio guides style and tone
+
+**Output:**\
+The generated track blends the melodic patterns of the reference audio with the new lyrics. Bright synth layers and a driving beat highlight the “dancing lights” theme, while vocal melodies interpret the provided lines. The result is a catchy, uplifting electronic track that captures the feeling of togetherness and motion described in the lyrics.
+
+<video controls className="w-full max-w-md rounded-xl" src="https://klyra.ai/storage/video/klyra-ai-music-dancing-lights.mp4" />
 
 ### 💡 Tips
 
