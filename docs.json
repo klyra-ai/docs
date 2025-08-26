@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
-  "name": "Klyra AI Documentation",
+  "name": "Tutorials",
   "colors": {
     "primary": "#533afd",
     "light": "#7851e3",
