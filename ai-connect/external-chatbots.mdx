@@ -1,4 +1,116 @@
 ---
 title: "External Chatbots"
-description: "Description of your new file."
+description: "Create, train, customize, and embed AI chatbots on your website using models from OpenAI, Anthropic, Google Gemini, and xAI—with brand-aligned UI, data-aware answers, and live user insights."
 ---
+
+## Introduction
+
+**External Chatbots** let you design website-ready assistants that look and speak like your brand. Configure the bot’s role and tone, connect **knowledge sources** (URLs, PDFs, CSVs, YouTube, text/Q&A), then **embed** it with a single snippet. Use detailed **chat histories** to learn what visitors ask, refine answers, and drive conversions.
+
+**Key benefits**
+
+- **Brand alignment:** Colors, logos, avatars, and widget placement match your site.
+- **Adaptive training:** Keep adding sources as your content grows.
+- **Personalized greetings:** Custom welcome & bubble messages.
+- **Insights:** Review chat histories to improve content and funnels.
+
+## How to Use
+
+> 🔎 **Navigation:** Dashboard → Left Panel → AI Connect & Integrations → External Chatbots
+
+You’ll see:
+
+- **General Statistics** (usage overview)
+- **Create New Chatbot** and **View Recent Conversations**
+- A list of your existing chatbots (create up to your plan’s limit; delete to free slots)
+
+<Steps>
+  <Step title="Configure Chatbot (Logic & Model)">
+    Right-side **live preview** updates as you edit.
+
+    - **Chatbot Title** — Shown in the widget header.
+    - **AI Chatbot Name** — Display name (optional “Hide Chatbot Name”).
+    - **Chatbot Instructions** — Role, audience, guardrails (be specific).
+      - **Restrict to data source & instructions** (toggle): the bot answers **only** from your connected sources \+ system instructions.
+      - **Custom Fallback Message**: what to say when it can’t answer.
+    - **Greeting Message** — First message shown after open.
+    - **Bubble Message** — Teaser shown before open (can **Hide**).
+    - **User Message Placeholder** — Input hint text.
+    - **AI Model** — Choose from **OpenAI / Anthropic / Gemini / xAI** models available in your plan.
+  </Step>
+  <Step title="Customize Chatbot (Brand & UI)">
+    - **Main Header Logo** — Upload or use default; **Hide** if needed.
+    - **AI Avatar** — Custom avatar; **Hide** if needed.
+    - **Colors** — Set each independently:
+      - Header Background / Text
+      - AI Background / Text
+      - User Background / Text
+    - **Branding** — Show/Hide footer branding; optional **Footer Link**.
+    - **Hide Date & Time of Messages** — Toggle if you prefer cleaner UI.
+    - **Widget Position** — Choose where the launcher appears on your site.
+    - Click **Next** when styling is complete.
+  </Step>
+  <Step title="Training — Add a Knowledge Base">
+    Choose one or many sources. You can retrain anytime.
+
+    **URL (Single Page / Entire Website)**
+
+    1. Select **URL** → **Train via URLs**.
+    2. On **Website Embedding** page, enter URL(s); choose **Single Page** or **Entire Website**.
+    3. **Start Crawling** → embedded content populates the table.
+
+    **PDF (up to 10 files, ≤30 MB each)**
+
+    1. Select **PDF** → upload → **Upload & Train** → wait for status notification.
+
+    **Excel/CSV (up to 10 files, ≤30 MB each)**
+
+    1. Select **Excel/CSV** → upload → **Upload & Train** → status notification.
+
+    **Text Input (unlimited items)**
+
+    1. Select **Text** → add **Title \+ Content** pairs → **Add More** as needed → **Process Text**.
+
+    **Q&A Input (unlimited pairs)**
+
+    1. Select **Q&A** → add **Question \+ Answer** pairs → **Add More** → **Process Text**.
+
+    **YouTube Videos**
+
+    1. Provide URL(s) to generate embeddings from transcripts/metadata (where available).
+
+    > Tip: When **Restrict to data source** is enabled, the bot declines questions outside your content—useful for compliance and accuracy.
+  </Step>
+  <Step title="Embed on Your Website">
+    - Copy the **embed code snippet** provided after creation/training.
+    - Paste it **just before **`</body>` in your website’s HTML.
+    - Publish/deploy your site. The chatbot widget appears automatically.
+  </Step>
+  <Step title="Monitor & Improve">
+    - **View Recent Conversations** to inspect sessions.
+    - Identify unanswered or low-confidence queries → add content (Text/Q&A/PDF/URL) → retrain.
+    - Iterate instructions (tone, escalation paths, boundaries) to boost quality.
+  </Step>
+</Steps>
+
+### 💡 Tips
+
+- **Start narrow, expand later:** Launch with core FAQs \+ pricing \+ product docs; add niche content as you learn.
+- **Use a clear role & policy:** In _Chatbot Instructions_, define purpose, tone, do/don’t, escalation (“handoff to contact form/email”).
+- **Turn on “Restrict to data source”** for accuracy in regulated or sensitive contexts.
+- **Name sources clearly:** Easier maintenance when content grows (e.g., “Docs—Pricing.pdf”, “KB—Returns URL Crawl”).
+- **Brand carefully:** High contrast text colors; keep bubble/greeting short.
+- **Test before embedding:** Use preview to try real customer questions; refine fallback and links.
+- **Analyze conversations weekly:** Feed gaps back into training.
+- **Performance & cost:** Choose models that match budget/latency needs; cache answers to common FAQs in your content.
+
+> ⚠️ **Responsible Use:** Don’t upload confidential data you’re not authorized to share. Ensure your privacy policy discloses chatbot use and data handling. For PII or regulated content, keep **Restrict to data source** on and review logs regularly.
+
+### 📌 Example Use Cases
+
+- **SaaS Support Concierge** — Answers pricing, onboarding, troubleshooting; escalates to support form when needed.
+- **E-commerce Shopping Assistant** — Recommends products, shows shipping/returns policy, tracks orders via connected docs/URLs.
+- **Content Library Guide** — Surfaces blogs, docs, and videos; summarizes long PDFs or YouTube transcripts.
+- **Lead Qualification Bot** — Asks qualifying questions, captures contact info, routes to CRM via footer link.
+- **Education & Training** — Answers course questions from PDFs/URLs; provides study summaries.
+- **Internal Helpdesk (Embedded on intranet)** — Policy lookups, IT FAQs, HR docs with strict source restrictions.
