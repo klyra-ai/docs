@@ -148,6 +148,11 @@
       "vscode"
     ]
   },
+  "integrations": {
+    "ga4": {
+        "measurementId": "G-40VT8P9VMN"
+    }
+  },
   "footer": {
     "socials": {
       "x": "https://x.com/klyra_ai",
