@@ -1,0 +1,562 @@
+---
+title: "AI Music Studio"
+description: "Learn how to create original music with AI, control song structure, manage generated tracks, and build polished multi-track mixes in Klyra AI."
+mode: "custom"
+---
+
+# AI Music Studio
+
+AI Music Studio turns a simple musical idea into an original track, then gives you the controls to shape, organize, and mix your creations in one workspace.
+
+You can start with a fast prompt, build a song section by section with Composition Plan, manage every generated track in your Library, and combine tracks in the multi-track Mixer.
+
+<Note>
+  AI Music Studio is part of Klyra AI, the AI Operating System. The goal is to keep music creation simple while giving you deeper controls when you need them.
+</Note>
+
+## What you can do
+
+With AI Music Studio, you can:
+
+- Generate music from a text prompt.
+- Build a song section by section with Composition Plan.
+- Control song length, vibe, mood, vocals, styles, and advanced generation settings.
+- Create instrumental or vocal tracks.
+- Add positive and negative global style tags.
+- Choose a generation model and optional seed.
+- Browse, search, favorite, archive, download, and delete generated tracks.
+- Play tracks from the persistent audio player.
+- Stack multiple AI tracks in the multi-track Mixer.
+- Adjust volume, pan, fades, and start timing for individual layers.
+- Apply master volume, reverb, and lowpass processing.
+- Save and recall named mixes.
+
+The feature set described above is part of the AI Music Studio product specification. fileciteturn0file0
+
+## AI Music Studio at a glance
+
+The workspace has three main areas:
+
+1. **Studio** for creating music.
+2. **Library** for managing generated tracks.
+3. **Mixer** for combining and balancing tracks.
+
+The product specification describes the Studio as a complete in-browser music studio, the Library as a searchable archive, and the Mixer as a multi-track workspace for balancing layers and bouncing a master mix. fileciteturn0file0
+
+## Create your first track
+
+Open **AI Music Studio** from Klyra AI.
+
+The Studio opens with the music composer at the top and your recent tracks below it.
+
+<Frame>
+  ![AI Music Studio Prompt mode showing the music prompt composer, creative controls, Generate button, and Recent tracks](/images/ai-music/01-studio-prompt-mode.png)
+</Frame>
+
+### Step 1: Choose Prompt mode
+
+The Studio provides two creation modes:
+
+- **Prompt**
+- **Composition Plan**
+
+Use **Prompt** when you want to describe the overall sound and let AI handle the composition.
+
+Use **Composition Plan** when you want more direct control over sections, lyrics, styles, and timing.
+
+The product specification identifies Prompt mode as the fast text-to-music workflow and Composition Plan as the section-by-section workflow. fileciteturn0file0
+
+### Step 2: Write your music prompt
+
+Describe the track you want to hear.
+
+A useful prompt can include:
+
+- Genre or musical style
+- Instruments
+- Mood
+- Vocal preference
+- Tempo
+- Production characteristics
+- Overall atmosphere
+
+For example:
+
+> A dreamy lo-fi hip-hop track with mellow piano, jazzy chords, vinyl crackle, soft drums and a chill vibe at 80 bpm.
+
+The Studio interface provides a large prompt field with a character counter and a **Surprise me** option for generating a curated example prompt. fileciteturn0file0
+
+<Note>
+  You do not need to write a technically complex prompt. Describe the sound, feeling, instruments, and energy you want.
+</Note>
+
+### Step 3: Set the track length
+
+Use the length control to choose how long the generated track should be.
+
+The product specification describes quick length presets including:
+
+- Hook
+- Loop
+- Verse
+- Short
+- Full
+- Extended
+
+The exact presets available can depend on the current Studio configuration. fileciteturn0file0
+
+### Step 4: Choose a vibe
+
+Use **Vibe** to guide the overall musical direction.
+
+The product specification lists visual vibe categories including:
+
+- Cinematic
+- Lo-Fi
+- Electronic
+- Ambient
+- Orchestral
+- Rock
+- Jazz
+- Hip-Hop
+- Classical
+
+It also describes a full genre browser for additional choices. fileciteturn0file0
+
+### Step 5: Choose a mood
+
+Use **Mood** to influence the emotional character of the track.
+
+Choose a mood that matches the feeling you want the finished music to communicate.
+
+### Step 6: Choose vocals or instrumental
+
+Use **Vocals** to control whether the generated track includes vocals or is instrumental.
+
+The product specification describes this as an Instrumental vs Vocals toggle. fileciteturn0file0
+
+### Step 7: Open Advanced controls when needed
+
+Use **Advanced** when you need additional control over generation.
+
+The product specification lists:
+
+- Custom track title or automatic title from the prompt
+- Multiple output formats such as MP3 and WAV
+- Selectable generation model
+- Optional seed for reproducible results
+
+Advanced controls should be used when you need specific output behavior. For a first track, the default settings are usually the simplest place to start. fileciteturn0file0
+
+### Step 8: Generate
+
+Click **Generate**.
+
+AI Music Studio processes the request and creates your track.
+
+The product specification describes a fullscreen generation progress experience with an animated visualizer and real-time AI Capacity information in the top bar. fileciteturn0file0
+
+<Note>
+  Generation uses your available AI Capacity. Klyra AI presents capacity to users rather than exposing its internal credit systems as the primary experience. fileciteturn0file1turn0file2
+</Note>
+
+## Use Composition Plan for more control
+
+If you want to design the structure of a song yourself, switch from **Prompt** to **Composition Plan**.
+
+<Frame>
+  ![AI Music Studio Composition Plan showing the timeline area, global styles, and Add section controls](/images/ai-music/02-studio-composition-plan.png)
+</Frame>
+
+Composition Plan lets you sketch the song before generating it.
+
+### Auto-plan a song
+
+Click **Auto-plan from prompt** to turn your existing prompt into a song structure.
+
+This is useful when you know the sound you want but do not want to manually build every section.
+
+The product specification explicitly supports automatically planning a full song layout from a prompt. fileciteturn0file0
+
+### Add sections manually
+
+Use **Add section** to build your song timeline.
+
+You can add sections such as:
+
+- Intro
+- Verse
+- Chorus
+- Bridge
+- Other supported song sections
+
+The Composition Plan is designed for adding, editing, and reordering sections while tracking the total duration. fileciteturn0file0
+
+### Configure each section
+
+A section can be configured with its own:
+
+- Lyrics
+- Length
+- Styling
+
+As you build the timeline, the total duration updates so you can understand the overall song structure.
+
+### Use global styles
+
+Composition Plan includes two style areas:
+
+**Positive Global Styles**
+
+Add styles you want the track to include.
+
+Examples:
+
+- Cinematic
+- Warm
+- Dreamy
+- Analog
+
+**Negative Global Styles**
+
+Add styles or characteristics you want the generation to avoid.
+
+Examples:
+
+- Harsh
+- Distorted
+- Heavy metal
+
+The product specification describes positive and negative global style tags as a way to steer or block sounds. fileciteturn0file0
+
+<Note>
+  Use positive and negative styles together when you have a clear creative direction. Keep them focused rather than adding a long list of unrelated instructions.
+</Note>
+
+## Work with your recent tracks
+
+Your latest creations appear in **Recent tracks** on the Studio home.
+
+The Recent tracks area is designed for quick access to your latest music without opening the full Library.
+
+<Frame>
+  ![AI Music Studio Recent tracks area showing a generated track and inline actions](/images/ai-music/01-studio-prompt-mode.png)
+</Frame>
+
+A recent track can provide quick actions such as:
+
+- Favorite
+- Download
+- Delete
+
+The product specification also describes animated waveform thumbnails for recent creations. fileciteturn0file0
+
+## Play your music
+
+AI Music Studio includes a persistent audio player.
+
+The player provides:
+
+- Play and pause
+- Seek through the track
+- Rewind and forward controls
+- Volume control
+- Download
+
+The product specification describes 15-second rewind and forward shortcuts and a custom waveform progress bar. fileciteturn0file0
+
+<Note>
+  The player remains available while you work elsewhere in the Studio, making it easier to compare or listen while continuing your workflow.
+</Note>
+
+## Manage your music in Library
+
+Open **Library** from the top navigation.
+
+The Library is your central collection of generated tracks.
+
+<Frame>
+  ![AI Music Studio Library showing search, All Favorites Archived filters, a generated track card, and the persistent audio player](/images/ai-music/03-music-library.png)
+</Frame>
+
+### Search your tracks
+
+Use the search field to find tracks by:
+
+- Title
+- Prompt
+
+The product specification describes a debounced live search for the generated track archive. fileciteturn0file0
+
+### Filter your collection
+
+The Library provides filters for:
+
+- **All**
+- **Favorites**
+- **Archived**
+
+Use these filters to quickly narrow the collection.
+
+### Manage individual tracks
+
+Each track card can include actions for:
+
+- Favorite
+- Download
+- Archive
+- Delete
+
+The product specification also describes track cards containing information such as genre, mood, instrumental status, length, and prompt preview. fileciteturn0file0
+
+<Warning>
+  Use Delete only when you are sure you no longer need a track. Archiving is a better choice when you want to remove a track from your active collection without treating it as a permanent deletion.
+</Warning>
+
+### Load more tracks
+
+For larger collections, the Library supports load-more pagination.
+
+This allows your music collection to grow without requiring everything to appear on the screen at once. fileciteturn0file0
+
+## Build a multi-track mix
+
+Open **Mixer** from the top navigation.
+
+The Multi-track Mixer lets you combine AI-generated tracks as independent layers.
+
+<Frame>
+  ![AI Music Studio Multi-track Mixer showing the track browser, mixer layer controls, playback controls, and master controls](/images/ai-music/04-multi-track-mixer.png)
+</Frame>
+
+The mixer is designed to let you stack tracks, balance their levels, adjust timing, and process the final mix. fileciteturn0file0
+
+### Step 1: Find a track
+
+Use the **Your Tracks** panel on the left.
+
+Search your music collection and find the track you want to add.
+
+Click the **\+** button to add it to the mix.
+
+### Step 2: Add multiple layers
+
+Repeat the process to build your mix.
+
+Each track appears as an independent layer in the main mixer.
+
+The maximum number of simultaneous layers is configurable by the product implementation. fileciteturn0file0
+
+### Step 3: Adjust volume
+
+Use the **Volume** control for each layer to balance the relative level of the track.
+
+For example:
+
+- Lower a background layer.
+- Raise a melody layer.
+- Reduce a vocal layer if it is overpowering other elements.
+
+### Step 4: Adjust pan
+
+Use **Pan** to position a layer within the stereo field.
+
+This can help separate layers and create a wider mix.
+
+### Step 5: Add fade-in and fade-out
+
+Use:
+
+- **Fade In**
+- **Fade Out**
+
+to create smoother entrances and exits for individual layers.
+
+### Step 6: Set the start time
+
+Use the **Start** control to determine when a layer enters the mix.
+
+This is useful when one track should begin after another track has already started.
+
+The product specification lists per-layer start-time control as part of the Mixer. fileciteturn0file0
+
+### Step 7: Use Mute and Solo
+
+Each layer provides **M** and **S** controls.
+
+Use:
+
+- **Mute** to temporarily silence a layer.
+- **Solo** to hear a layer in isolation while evaluating the mix.
+
+These controls make it easier to compare individual parts without removing them from the project.
+
+### Step 8: Reorder layers
+
+Use the up and down controls to change the layer order.
+
+The product specification supports one-click layer reordering. fileciteturn0file0
+
+## Adjust the master mix
+
+The bottom of the Mixer contains master controls.
+
+### Master Volume
+
+Controls the overall output level of the mix.
+
+### Reverb
+
+Adds or reduces the master reverb effect.
+
+### Lowpass
+
+Controls the master lowpass filter.
+
+The Mixer specification identifies master volume, reverb, and lowpass as the master-bus controls. fileciteturn0file0
+
+<Note>
+  Make small changes and listen after each adjustment. The goal is a balanced mix, not simply the loudest possible output.
+</Note>
+
+## Play and save your mix
+
+Use the Mixer controls to:
+
+- **Play mix**
+- **Stop**
+- **Save**
+- **New**
+
+The product specification describes real-time playback through the Web Audio API and support for saving, loading, and recalling named mixes. fileciteturn0file0
+
+### Save a mix
+
+Enter a name for your mix and click **Save**.
+
+Saved mixes can be recalled later.
+
+### Start a new mix
+
+Use **New** when you want to begin a separate mix.
+
+## A simple workflow for your first song
+
+<Steps>
+  <Step title="Start with Prompt mode">
+    Describe the genre, instruments, mood, energy, and overall sound you want.
+  </Step>
+  <Step title="Generate a short track">
+    Use a shorter length while experimenting so you can quickly evaluate the direction.
+  </Step>
+  <Step title="Refine the prompt">
+    Change the musical characteristics that are not working and generate another version.
+  </Step>
+  <Step title="Try Composition Plan">
+    When you want more structural control, build an Intro, Verse, Chorus, Bridge, or other sections.
+  </Step>
+  <Step title="Organize your tracks">
+    Use Library to favorite useful versions and archive tracks you do not currently need.
+  </Step>
+  <Step title="Build a mix">
+    Open Mixer and add the tracks you want to combine.
+  </Step>
+  <Step title="Balance and save">
+    Adjust volume, pan, fades, timing, and master effects, then save the finished mix.
+  </Step>
+</Steps>
+
+## Tips for better results
+
+### Describe the sound, not the technology
+
+Instead of trying to specify how AI should generate the music, describe the result you want to hear.
+
+Include things such as:
+
+- Genre
+- Instrumentation
+- Mood
+- Tempo
+- Energy
+- Vocal preference
+- Production character
+
+### Keep prompts focused
+
+A focused prompt gives you a clearer creative direction.
+
+If you want a significant change, change one or two important characteristics at a time and compare the results.
+
+### Use Composition Plan for song structure
+
+Prompt mode is ideal for speed.
+
+Composition Plan is better when the arrangement itself matters, especially when you need specific sections, lyrics, lengths, and timing.
+
+### Use negative styles intentionally
+
+Negative global styles are useful when the generator repeatedly introduces a sound or characteristic you do not want.
+
+### Organize your Library
+
+Favorite strong tracks and archive tracks that are not currently part of your active work.
+
+This keeps the Library easier to navigate as your collection grows.
+
+### Mix with small adjustments
+
+When mixing multiple layers, make gradual changes to volume, pan, fades, and timing. Listen to the result after each important adjustment.
+
+## Quick reference
+
+| Task | Where to do it |
+| --- | --- |
+| Generate music quickly | **Studio → Prompt** |
+| Build a song structure | **Studio → Composition Plan** |
+| Auto-create a song layout | **Composition Plan → Auto-plan from prompt** |
+| Add a song section | **Composition Plan → Add section** |
+| Set positive styles | **Composition Plan → Positive Global Styles** |
+| Set sounds to avoid | **Composition Plan → Negative Global Styles** |
+| Find generated tracks | **Library** |
+| Search tracks | **Library → Search** |
+| View favorites | **Library → Favorites** |
+| View archived tracks | **Library → Archived** |
+| Download a track | **Library → Download** |
+| Build a multi-track mix | **Mixer** |
+| Add a track to the mix | **Mixer → Your Tracks → \+** |
+| Balance a layer | **Mixer → Volume / Pan** |
+| Control layer timing | **Mixer → Start / Fade In / Fade Out** |
+| Mute or solo a layer | **Mixer → M / S** |
+| Process the master mix | **Mixer → Master Volume / Reverb / Lowpass** |
+| Save a mix | **Mixer → Save** |
+
+## AI Music Studio workflow
+
+```text
+Idea
+  ↓
+Prompt or Composition Plan
+  ↓
+Generate
+  ↓
+Listen
+  ↓
+Refine
+  ↓
+Library
+  ↓
+Mixer
+  ↓
+Balance layers
+  ↓
+Apply master effects
+  ↓
+Save mix
+```
+
+## You're ready to create
+
+AI Music Studio brings music generation, composition control, track management, and mixing into one workspace.
+
+Start with a simple prompt, use Composition Plan when you need more control, organize your best creations in Library, and use Mixer when you want to combine tracks into a polished mix.
