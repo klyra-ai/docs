@@ -1,0 +1,377 @@
+---
+title: "AI Speech to Text"
+description: "Learn how to transcribe audio and video files into text and convert live speech into editable transcripts with Klyra AI."
+mode: "custom"
+---
+
+# AI Speech to Text
+
+AI Speech to Text converts spoken audio into text inside Klyra AI. It supports two workflows: **Transcribe Audio File** for uploaded audio or video files, and **Live Transcription** for speech captured in real time.
+
+The app brings together leading speech recognition capabilities from **ElevenLabs and OpenAI**, giving you accurate transcription for recordings and live speech. fileciteturn0file0
+
+<Note>
+  AI Speech to Text is built for both recorded and live transcription. Choose the workflow that matches the source of your speech.
+</Note>
+
+## What you can do
+
+With AI Speech to Text, you can:
+
+- Convert uploaded audio files into text.
+- Convert uploaded video files into text.
+- Select the primary language of the uploaded recording.
+- Transcribe speech in real time with Live Transcription.
+- Review the live transcript while recording.
+- Copy a live transcript.
+- Save a live transcript for later access.
+- Review previous transcription tasks from the dashboard. fileciteturn0file0
+
+According to Klyra AI's product documentation, the Audio Transcribe workflow uses ElevenLabs Scribe models and supports transcription in **99 languages**, with character-level timestamps, speaker diarization, and audio-event tagging. Live Transcribe uses OpenAI transcription models. fileciteturn0file0
+
+## Choose your transcription workflow
+
+AI Speech to Text provides two main workflows:
+
+| Workflow | Best for |
+| --- | --- |
+| **Transcribe Audio File** | Existing audio or video recordings |
+| **Live Transcription** | Speech that you want to transcribe while it is happening |
+
+You can switch between these workflows from the AI Speech to Text navigation.
+
+<Frame>
+  ![AI Speech to Text dashboard showing Transcribe Audio File and Live Transcription options](/images/ai-speech-to-text/02-ai-speech-to-text-dashboard.png)
+</Frame>
+
+## Transcribe an audio or video file
+
+Use **Transcribe Audio File** when you already have a recording that you want to convert into text.
+
+### Step 1: Open Transcribe Audio File
+
+Open **AI Speech to Text** from the Klyra sidebar.
+
+Then select **Transcribe Audio File** from the app navigation.
+
+The upload workspace appears with a large file drop area.
+
+### Step 2: Upload your recording
+
+You can either:
+
+- Drag and drop your file into the upload area.
+- Click **Browse** and select a file from your device.
+
+The interface accepts audio and video files for transcription.
+
+After the file is selected, its filename appears in the upload area.
+
+<Note>
+  The app interface describes the upload area as accepting audio or video files. The selected file is then used as the source for transcription.
+</Note>
+
+### Step 3: Select the primary language
+
+Under the upload area, use **Primary Language of Audio File** to select the main spoken language in the recording.
+
+The interface provides a language selector. In the example shown, **German** is selected.
+
+Choose the language that best matches the primary spoken language in your recording.
+
+<Note>
+  Selecting the correct primary language helps the transcription workflow interpret the recording appropriately.
+</Note>
+
+### Step 4: Start transcription
+
+Once your file and primary language are selected, click **Start Transcription**.
+
+Klyra processes the recording and creates the transcript.
+
+<Note>
+  Longer recordings may take longer to process. Keep the browser session available while the transcription task is being processed.
+</Note>
+
+## Review your transcription activity
+
+The **Dashboard** gives you an overview of your Speech to Text activity.
+
+The example dashboard displays:
+
+- **Total Audio Tasks**
+- **Total Live Tasks**
+- **Total Minutes Transcribed**
+- Your current usage balance
+
+It also provides quick actions for:
+
+- **Transcribe Audio File**
+- **Live Transcription**
+
+<Frame>
+  ![AI Speech to Text dashboard showing transcription statistics, usage balance, quick actions, and latest transcripts](/images/ai-speech-to-text/02-ai-speech-to-text-dashboard.png)
+</Frame>
+
+### View your latest transcripts
+
+The **Latest Transcripts** section shows recent transcription results.
+
+Items can include:
+
+- Live transcript files
+- Audio recordings
+- Video recordings
+- Saved transcript files
+
+Each item is shown with its filename and creation date/time.
+
+The menu at the right side of each item provides additional actions.
+
+<Note>
+  Your transcript history gives you a central place to return to recent transcription work instead of starting over from the original recording.
+</Note>
+
+## Use Live Transcription
+
+Use **Live Transcription** when you want Klyra to convert speech into text while you speak.
+
+This workflow is useful when you do not already have a finished audio file and want to see the transcript being produced in real time.
+
+### Step 1: Open Live Transcription
+
+From AI Speech to Text, select **Live Transcription**.
+
+The live transcription workspace opens with a recording control and transcript area.
+
+<Frame>
+  ![AI Speech to Text Live Transcription screen showing speech time, words transcribed, recording status, microphone control, transcript area, and save and copy actions](/images/ai-speech-to-text/03-live-transcription.png)
+</Frame>
+
+### Step 2: Start recording
+
+Click the large **microphone** button to begin recording.
+
+While recording, the interface displays live status information, including:
+
+- **Speech Time**
+- **Words Transcribed**
+- **Status**
+
+When recording is active, the status is shown as **Recording**.
+
+### Step 3: Speak naturally
+
+Speak into your microphone while Klyra transcribes the speech.
+
+The transcript appears in the main text area as the recording progresses.
+
+In the example shown, the live transcript area contains:
+
+> Hi there. Welcome to Klyra AI! Thank you for watching!
+
+The transcript can continue to grow as you speak.
+
+### Step 4: Review the live transcript
+
+When you finish speaking, review the transcript in the main text area.
+
+Use the displayed speech time and word count as a quick reference for the recording.
+
+### Step 5: Clear, save, or copy
+
+The Live Transcription workspace provides three actions:
+
+- **Clear**: Remove the current transcript from the workspace.
+- **Save Transcript**: Save the transcript for later access.
+- **Copy**: Copy the transcript to your clipboard.
+
+<Warning>
+  Use **Save Transcript** before clearing the workspace if you want to keep the current transcription.
+</Warning>
+
+## Understanding the two workflows
+
+The two transcription modes solve different problems.
+
+### Transcribe Audio File
+
+Choose this when:
+
+- You have an existing recording.
+- You need to transcribe a podcast or interview recording.
+- You have a meeting recording.
+- You have a video containing speech.
+- You want to process a file after recording it.
+
+The workflow is:
+
+```text
+Upload audio/video
+       ↓
+Select primary language
+       ↓
+Start transcription
+       ↓
+Process recording
+       ↓
+Review transcript
+```
+
+### Live Transcription
+
+Choose this when:
+
+- You want text while you are speaking.
+- You are capturing a live explanation or presentation.
+- You want to record speech without first creating an audio file.
+- You need a transcript immediately after speaking.
+
+The workflow is:
+
+```text
+Open Live Transcription
+       ↓
+Start recording
+       ↓
+Speak
+       ↓
+Review live transcript
+       ↓
+Save or copy
+```
+
+## Transcription capabilities
+
+Klyra AI's product documentation describes the Speech to Text app as using leading ASR capabilities from ElevenLabs and OpenAI. fileciteturn0file0
+
+### Audio Transcribe
+
+The Audio Transcribe workflow is described as using ElevenLabs Scribe models and supporting:
+
+- Up to 99 languages
+- Character-level timestamps
+- Speaker diarization
+- Audio-event tagging
+
+These capabilities are particularly useful when working with recordings that contain multiple speakers or when timing and audio events matter. fileciteturn0file0
+
+### Live Transcribe
+
+The Live Transcribe workflow uses OpenAI's transcription capabilities for real-time speech-to-text processing. fileciteturn0file0
+
+<Note>
+  The available capabilities can depend on the current models and product configuration. The interface should be treated as the source of truth for the options available in your account.
+</Note>
+
+## Practical workflows
+
+### Turn a recorded interview into text
+
+1. Open **AI Speech to Text**.
+2. Select **Transcribe Audio File**.
+3. Upload the interview recording.
+4. Select the primary language.
+5. Click **Start Transcription**.
+6. Review the completed transcript from your transcription history.
+
+### Transcribe a video recording
+
+1. Open **Transcribe Audio File**.
+2. Upload the video.
+3. Select the primary spoken language.
+4. Start the transcription.
+5. Review the resulting transcript.
+
+### Capture a live explanation
+
+1. Open **Live Transcription**.
+2. Click the microphone button.
+3. Speak naturally.
+4. Watch the transcript appear in real time.
+5. Stop when you are finished.
+6. Copy or save the transcript.
+
+## Best practices
+
+### Select the correct primary language
+
+When using file transcription, choose the primary language that matches the recording.
+
+### Use a clear audio source
+
+Clear speech generally makes transcription easier. When recording new audio, minimize unnecessary background noise and keep the speaker close enough to the microphone.
+
+### Review important transcripts
+
+AI transcription can make mistakes. For important meetings, interviews, published content, names, numbers, or technical terminology, review the transcript before using it as a final source.
+
+### Save before clearing
+
+If you are using Live Transcription, save or copy the transcript before selecting **Clear**.
+
+### Use the right workflow
+
+Do not upload a recording to the live workflow when you already have the file. Likewise, do not create a separate recording first when Live Transcription is the more direct option.
+
+## Troubleshooting
+
+### My file is not appearing after upload
+
+Try the following:
+
+1. Confirm the file was selected in the upload area.
+2. Check that the browser has completed the upload.
+3. Try using **Browse** instead of drag and drop.
+4. If the issue continues, reload the page and try again.
+
+### The transcript is not accurate
+
+Check:
+
+- The selected primary language.
+- The quality of the original recording.
+- Whether speakers are easy to hear.
+- Whether there is substantial background noise.
+- Names, numbers, and technical terminology in the final transcript.
+
+For important content, always review the generated transcript.
+
+### I want to transcribe speech immediately
+
+Use **Live Transcription** instead of uploading a file.
+
+### I already have a recording
+
+Use **Transcribe Audio File**.
+
+## Quick reference
+
+| Task | Action |
+| --- | --- |
+| Transcribe an existing recording | **Transcribe Audio File** |
+| Upload a recording | Drag and drop or **Browse** |
+| Set the recording language | **Primary Language of Audio File** |
+| Start file transcription | **Start Transcription** |
+| See recent transcription activity | **Dashboard → Latest Transcripts** |
+| Transcribe speech live | **Live Transcription** |
+| Start live recording | Click the microphone button |
+| Remove the current live transcript | **Clear** |
+| Keep a live transcript | **Save Transcript** |
+| Copy a live transcript | **Copy** |
+
+## You're ready to transcribe with AI
+
+You now know how to:
+
+- Upload audio and video files for transcription.
+- Select the primary language.
+- Start a file transcription.
+- Review recent transcription activity.
+- Use Live Transcription.
+- Record speech in real time.
+- Review a live transcript.
+- Save or copy a transcript.
+- Choose the right workflow for recorded or live speech.
+
+AI Speech to Text brings recorded and live speech transcription into one workflow inside Klyra AI, helping you turn spoken content into usable text without switching between separate services. fileciteturn0file0

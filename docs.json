@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
-  "name": "Tutorials",
+  "name": "Klyra AI Documentation",
   "colors": {
     "primary": "#533afd",
     "light": "#7851e3",
     "dark": "#2a1d85"
   },
-  "description":"Explore Klyra AI’s official tutorials and documentation — your complete guide to mastering AI-powered tools for writing, design, voice, video, and productivity. Step-by-step instructions, practical tips, and real-world use cases help you create, automate, and innovate with ease.",
+  "description": "Explore Klyra AI’s official tutorials and documentation — your complete guide to mastering AI-powered tools for writing, design, voice, video, and productivity. Step-by-step instructions, practical tips, and real-world use cases help you create, automate, and innovate with ease.",
   "thumbnails": {
     "background": "/images/klyra-ai-watercolor-painting-of-a-woman.webp"
   },
@@ -15,97 +15,23 @@
   "navigation": {
     "groups": [
       {
-        "group": "Introduction",
+        "group": "Get Started",
         "pages": [
-          "index",
-          "quickstart"
-        ]
-      },
-      {
-        "group": "AI Panel",
-        "pages": [
-          "ai-panel/dashboard",
-          "ai-panel/documents"
-        ]
-      },
-      {
-        "group": "AI Writing",
-        "pages": [
-          "ai-writing/ai-code",
-          "ai-writing/ai-writer",
-          "ai-writing/ai-rewriter"
-        ]
-      },
-      {
-        "group": "AI Conversations",
-        "pages": [
-          "ai-conversations/ai-chat",
-          "ai-conversations/ai-file-chat",
-          "ai-conversations/ai-web-chat"
-        ]
-      },
-      {
-        "group": "AI Images & Editing",
-        "pages": [
-          "ai-image/ai-vision",
-          "ai-image/ai-images",
-          "ai-image/ai-faceswap",
-          "ai-image/ai-chat-image",
-          "ai-image/ai-photo-studio",
-          "ai-image/ai-product-photo"
-        ]
-      },
-      {
-        "group": "AI Video Creation",
-        "pages": [
-          "ai-video/ai-avatars",
-          "ai-video/ai-text-to-video",
-          "ai-video/ai-image-to-video",
-          "ai-video/ai-video-to-video"
-        ]
-      },
-      {
-        "group": "AI Audio & Voice",
-        "pages": [
-          "ai-audio/ai-music",
-          "ai-audio/ai-voiceover",
-          "ai-audio/voice-isolator",
-          "ai-audio/sound-studio",
-          "ai-audio/voice-cloning",
-          "ai-audio/speech-to-text",
-          "ai-audio/speech-to-text-pro"
-        ]
-      },
-      {
-        "group": "AI Connect & Integrations",
-        "pages": [
-          "ai-connect/ai-rss",
-          "ai-connect/ai-youtube",
-          "ai-connect/integrations",
-          "ai-connect/ai-social-media",
-          "ai-connect/external-chatbots"
-        ]
-      },
-      {
-        "group": "Productivity",
-        "pages": [
-          "productivity/seo-tool",
-          "productivity/ai-textract",
-          "productivity/brand-voice"
-        ]
-      },
-      {
-        "group": "Account",
-        "pages": [
-          "account/subscription-plans",
-          "account/my-account",
-          "account/affiliate-program"
-        ]
-      },
-      {
-        "group": "FAQs",
-        "pages": [
-          "faqs/user-faqs"
+          "quickstart",
+          "create-your-first-result",
+          "ai-writer",
+          "ai-blogger",
+          "ai-seo",
+          "ai-image-studio",
+          "ai-presentation",
+          "ai-video-generator",
+          "ai-avatar",
+          "ai-voice-isolator",
+          "ai-voice-cloning",
+          "ai-speech-to-text",
+          "ai-social-media",
+          "ai-chatbots",
+          "ai-music-generator"
         ]
       }
     ]
@@ -150,7 +76,7 @@
   },
   "integrations": {
     "ga4": {
-        "measurementId": "G-40VT8P9VMN"
+      "measurementId": "G-40VT8P9VMN"
     }
   },
   "footer": {
