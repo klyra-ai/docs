@@ -91,5 +91,111 @@
       "youtube": "https://www.youtube.com/@klyra-ai-platform",
       "linkedin": "https://www.linkedin.com/company/klyra-ai"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/quickstart",
+      "destination": "/create-your-first-result"
+    },
+    {
+      "source": "/ai-writing/ai-writer",
+      "destination": "/ai-writer"
+    },
+    {
+      "source": "/ai-audio/ai-music",
+      "destination": "/ai-music-generator"
+    },
+	{
+      "source": "/ai-audio/sound-studio",
+      "destination": "/ai-music-generator"
+    },
+    {
+      "source": "/ai-audio/voice-isolator",
+      "destination": "/ai-voice-isolator"
+    },
+    {
+      "source": "/ai-audio/voice-cloning",
+      "destination": "/ai-voice-cloning"
+    },
+    {
+      "source": "/ai-audio/speech-to-text",
+      "destination": "/ai-speech-to-text"
+    },
+	{
+      "source": "/ai-audio/speech-to-text-pro",
+      "destination": "/ai-speech-to-text"
+    },
+    {
+      "source": "/ai-connect/ai-social-media",
+      "destination": "/ai-social-media"
+    },
+    {
+      "source": "/productivity/seo-tool",
+      "destination": "/ai-seo"
+    },
+    {
+      "source": "/ai-video/ai-avatars",
+      "destination": "/ai-avatar-generator"
+    },
+    {
+      "source": "/ai-image/ai-faceswap",
+      "destination": "/ai-image-generator"
+    },
+    {
+      "source": "/ai-image/ai-chat-image",
+      "destination": "/ai-image-generator"
+    },
+    {
+      "source": "/ai-image/ai-photo-studio",
+      "destination": "/ai-image-generator"
+    },
+    {
+      "source": "/ai-image/ai-product-photo",
+      "destination": "/ai-image-generator"
+    },
+	{
+      "source": "/ai-image/ai-images",
+      "destination": "/ai-image-generator"
+    },
+    {
+      "source": "/ai-conversations/ai-chat",
+      "destination": "/ai-chatbot"
+    },
+    {
+      "source": "/ai-conversations/ai-web-chat",
+      "destination": "/ai-chatbot"
+    },
+    {
+      "source": "/ai-conversations/ai-file-chat",
+      "destination": "/ai-chatbot"
+    },
+    {
+      "source": "/ai-connect/external-chatbots",
+      "destination": "/ai-chatbot"
+    },
+	{
+      "source": "/ai-video/ai-text-to-video",
+      "destination": "/ai-video-generator"
+    },
+	{
+      "source": "/ai-video/ai-image-to-video",
+      "destination": "/ai-video-generator"
+    },
+	{
+      "source": "/ai-video/ai-video-to-video",
+      "destination": "/ai-video-generator"
+    },
+	{
+      "source": "/ai-connect/integrations",
+      "destination": "/ai-blogger"
+    },
+	{
+      "source": "/ai-connect/ai-rss",
+      "destination": "/ai-blogger"
+    },
+	{
+      "source": "/ai-connect/ai-youtube",
+      "destination": "/ai-blogger"
+    }
+  ]
 }
