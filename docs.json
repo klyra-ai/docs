@@ -7,7 +7,7 @@
     "light": "#7851e3",
     "dark": "#2a1d85"
   },
-  "description": "Explore Klyra AI’s official tutorials and documentation — your complete guide to mastering AI-powered tools for writing, design, voice, video, and productivity. Step-by-step instructions, practical tips, and real-world use cases help you create, automate, and innovate with ease.",
+  "description": "Explore Klyra AI’s official tutorials and documentation. Learn how to use AI-powered tools for writing, design, voice, video, productivity, automation, and more with clear step-by-step guides.",
   "thumbnails": {
     "background": "/images/klyra-ai-watercolor-painting-of-a-woman.webp"
   },
@@ -17,20 +17,25 @@
       {
         "group": "Get Started",
         "pages": [
-          "quickstart",
-          "create-your-first-result",
+          "index",
+          "create-your-first-result"
+        ]
+      },
+      {
+        "group": "AI Apps",
+        "pages": [
           "ai-writer",
           "ai-blogger",
           "ai-seo",
-          "ai-image-studio",
+          "ai-image-generator",
           "ai-presentation",
           "ai-video-generator",
-          "ai-avatar",
+          "ai-avatar-generator",
           "ai-voice-isolator",
           "ai-voice-cloning",
           "ai-speech-to-text",
           "ai-social-media",
-          "ai-chatbots",
+          "ai-chatbot",
           "ai-music-generator"
         ]
       }
