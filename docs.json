@@ -27,16 +27,16 @@
           "ai-writer",
           "ai-blogger",
           "ai-seo",
+		  "ai-presentation",
           "ai-image-generator",
-          "ai-presentation",
           "ai-video-generator",
           "ai-avatar-generator",
+		  "ai-music-generator",
           "ai-voice-isolator",
           "ai-voice-cloning",
           "ai-speech-to-text",
           "ai-social-media",
-          "ai-chatbot",
-          "ai-music-generator"
+          "ai-chatbot"
         ]
       }
     ]
