@@ -1,10 +1,10 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "mint",
   "name": "Klyra AI Documentation",
   "colors": {
-    "primary": "#533afd",
-    "light": "#7851e3",
+    "primary": "#7851e3",
+    "light": "#533afd",
     "dark": "#2a1d85"
   },
   "description": "Explore Klyra AI’s official tutorials and documentation. Learn how to use AI-powered tools for writing, design, voice, video, productivity, automation, and more with clear step-by-step guides.",
