@@ -65,6 +65,14 @@
       {
         "label": "Support",
         "href": "mailto:connect@klyra.ai"
+      },
+	  {
+        "label": "Blog",
+        "href": "https://klyra.ai/blog"
+      },
+	  {
+        "label": "AI Apps",
+        "href": "https://klyra.ai/apps"
       }
     ],
     "primary": {
