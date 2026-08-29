@@ -29,6 +29,7 @@
           "ai-seo",
 		  "ai-presentation",
           "ai-image-generator",
+		  "ai-photoshoot",
           "ai-video-generator",
           "ai-avatar-generator",
 		  "ai-music-generator",
@@ -156,7 +157,7 @@
     },
     {
       "source": "/ai-image/ai-product-photo",
-      "destination": "/ai-image-generator"
+      "destination": "/ai-photoshoot"
     },
 	{
       "source": "/ai-image/ai-images",
