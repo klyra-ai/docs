@@ -18,6 +18,12 @@ Generate SEO-focused blog content, research topics and keywords, and publish or 
 
 [Explore AI Blogger](https://klyra.ai/apps/ai-blogger)
 
+### AI SEO
+
+Optimize content and improve your search visibility with AI-powered SEO workflows.
+
+[Explore AI SEO](https://klyra.ai/apps/ai-seo)
+
 ### AI Presentation
 
 Create professional presentations from ideas, topics, or briefs with AI-generated content, layouts, and visuals.
