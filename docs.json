@@ -7,6 +7,9 @@
     "light": "#533afd",
     "dark": "#2a1d85"
   },
+  "icons": {
+    "library": "lucide"
+  },
   "description": "Explore Klyra AI’s official tutorials and documentation. Learn how to use AI-powered tools for writing, design, voice, video, productivity, automation, and more with clear step-by-step guides.",
   "thumbnails": {
     "background": "/images/klyra-ai-og-image.webp"
